@@ -1,0 +1,8 @@
+{
+  "functions": {
+    "api/recovery.py": {
+      "maxDuration": 60,
+      "excludeFiles": "{tests/**,runs/**,outputs/**,.venv/**,**/*.sqlite,**/*.sqlite.lock}"
+    }
+  }
+}

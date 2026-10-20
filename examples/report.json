@@ -1,0 +1,2775 @@
+{
+  "run_id": "2026-10-20-full",
+  "status": "partial",
+  "stop_reason": "unresolved_work",
+  "discovery": [
+    {
+      "category_url": "https://www.safcodental.com/catalog/gloves",
+      "reported_hits": 93,
+      "reported_pages": 8,
+      "committed_pages": 8,
+      "decoded_hits": 93,
+      "distinct_object_ids": 93,
+      "distinct_product_urls": 93,
+      "duplicate_object_ids": 0,
+      "count_status": "matched",
+      "missing_source_hits": 0,
+      "complete": true,
+      "issues": []
+    },
+    {
+      "category_url": "https://www.safcodental.com/catalog/sutures-surgical-products",
+      "reported_hits": 55,
+      "reported_pages": 5,
+      "committed_pages": 5,
+      "decoded_hits": 55,
+      "distinct_object_ids": 55,
+      "distinct_product_urls": 55,
+      "duplicate_object_ids": 0,
+      "count_status": "matched",
+      "missing_source_hits": 0,
+      "complete": true,
+      "issues": []
+    }
+  ],
+  "discovered_products": 148,
+  "product_outcomes": {
+    "complete": 134,
+    "partial": 10,
+    "failed": 4
+  },
+  "accepted_items": 742,
+  "distinct_skus": 741,
+  "item_coverage": [
+    {
+      "task_id": 5,
+      "product_url": "https://www.safcodental.com/product/lavender-nitrile",
+      "expected_item_count": 5,
+      "decoded_item_count": 5,
+      "accepted_item_count": 5,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 6,
+      "product_url": "https://www.safcodental.com/product/beesure-ultraslim-nitrile",
+      "expected_item_count": 4,
+      "decoded_item_count": 4,
+      "accepted_item_count": 4,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 7,
+      "product_url": "https://www.safcodental.com/product/aurelia-reg-amazing-reg",
+      "expected_item_count": 5,
+      "decoded_item_count": 5,
+      "accepted_item_count": 5,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 8,
+      "product_url": "https://www.safcodental.com/product/aquasoft",
+      "expected_item_count": 5,
+      "decoded_item_count": 5,
+      "accepted_item_count": 5,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 9,
+      "product_url": "https://www.safcodental.com/product/beesure-reg-superslim-trade-nitrile",
+      "expected_item_count": 4,
+      "decoded_item_count": 4,
+      "accepted_item_count": 4,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 10,
+      "product_url": "https://www.safcodental.com/product/alasta-sup-reg-sup",
+      "expected_item_count": 10,
+      "decoded_item_count": 10,
+      "accepted_item_count": 10,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 11,
+      "product_url": "https://www.safcodental.com/product/microflex-sup-reg-sup-ultraform-sup-trade-sup",
+      "expected_item_count": 8,
+      "decoded_item_count": 8,
+      "accepted_item_count": 8,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 12,
+      "product_url": "https://www.safcodental.com/product/black-maxx-sup-reg-sup",
+      "expected_item_count": 5,
+      "decoded_item_count": 5,
+      "accepted_item_count": 5,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 13,
+      "product_url": "https://www.safcodental.com/product/microflex-reg-xceed-reg",
+      "expected_item_count": 5,
+      "decoded_item_count": 5,
+      "accepted_item_count": 5,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 14,
+      "product_url": "https://www.safcodental.com/product/aurelia-reg-vibrant-trade",
+      "expected_item_count": 4,
+      "decoded_item_count": 4,
+      "accepted_item_count": 4,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 15,
+      "product_url": "https://www.safcodental.com/product/aurelia-reg-blush-reg",
+      "expected_item_count": 4,
+      "decoded_item_count": 4,
+      "accepted_item_count": 4,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 16,
+      "product_url": "https://www.safcodental.com/product/gloveup-sup-reg-sup",
+      "expected_item_count": 5,
+      "decoded_item_count": 5,
+      "accepted_item_count": 5,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 18,
+      "product_url": "https://www.safcodental.com/product/surgifoam-reg",
+      "expected_item_count": 2,
+      "decoded_item_count": 2,
+      "accepted_item_count": 2,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 19,
+      "product_url": "https://www.safcodental.com/product/ossif-i-sem-trade",
+      "expected_item_count": 18,
+      "decoded_item_count": 18,
+      "accepted_item_count": 18,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 20,
+      "product_url": "https://www.safcodental.com/product/orasoothe-reg-sockit-gel",
+      "expected_item_count": 3,
+      "decoded_item_count": 3,
+      "accepted_item_count": 3,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 21,
+      "product_url": "https://www.safcodental.com/product/ossify-sup-reg-sup-min-demin-cortical-cancellous-bone-graft",
+      "expected_item_count": 3,
+      "decoded_item_count": 3,
+      "accepted_item_count": 3,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 22,
+      "product_url": "https://www.safcodental.com/product/foundation-trade",
+      "expected_item_count": 3,
+      "decoded_item_count": 3,
+      "accepted_item_count": 3,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 23,
+      "product_url": "https://www.safcodental.com/product/collashield-trade-collagen-membrane",
+      "expected_item_count": 3,
+      "decoded_item_count": 3,
+      "accepted_item_count": 3,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 24,
+      "product_url": "https://www.safcodental.com/product/regenafill-sup-trade-sup-bone-graft-plug",
+      "expected_item_count": 2,
+      "decoded_item_count": 2,
+      "accepted_item_count": 2,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 25,
+      "product_url": "https://www.safcodental.com/product/hemostat-sup-trade-sup",
+      "expected_item_count": 1,
+      "decoded_item_count": 1,
+      "accepted_item_count": 1,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 26,
+      "product_url": "https://www.safcodental.com/product/surgicel-reg",
+      "expected_item_count": 1,
+      "decoded_item_count": 1,
+      "accepted_item_count": 1,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 27,
+      "product_url": "https://www.safcodental.com/product/feather-sup-reg-nbsp-sup-microsurgical-blades",
+      "expected_item_count": 4,
+      "decoded_item_count": 4,
+      "accepted_item_count": 4,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 28,
+      "product_url": "https://www.safcodental.com/product/soft-tissue-trimmer",
+      "expected_item_count": 2,
+      "decoded_item_count": 2,
+      "accepted_item_count": 2,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 29,
+      "product_url": "https://www.safcodental.com/product/ossify-sup-reg-sup-cortical-bone-sheet",
+      "expected_item_count": 2,
+      "decoded_item_count": 2,
+      "accepted_item_count": 2,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 31,
+      "product_url": "https://www.safcodental.com/product/beesure-sup-reg-sup-nitrile",
+      "expected_item_count": 5,
+      "decoded_item_count": 5,
+      "accepted_item_count": 5,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 32,
+      "product_url": "https://www.safcodental.com/product/microflex-sup-reg-sup-neogard-sup-reg-sup",
+      "expected_item_count": 5,
+      "decoded_item_count": 5,
+      "accepted_item_count": 5,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 33,
+      "product_url": "https://www.safcodental.com/product/aurelia-sup-reg-sup-transform-sup-reg-sup",
+      "expected_item_count": 4,
+      "decoded_item_count": 4,
+      "accepted_item_count": 4,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 34,
+      "product_url": "https://www.safcodental.com/product/aurelia-sup-reg-sup-sonic-sup-reg-sup",
+      "expected_item_count": 5,
+      "decoded_item_count": 5,
+      "accepted_item_count": 5,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 35,
+      "product_url": "https://www.safcodental.com/product/alasta-sup-reg-sup-shimmer-pink-nitrile",
+      "expected_item_count": 4,
+      "decoded_item_count": 4,
+      "accepted_item_count": 4,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 36,
+      "product_url": "https://www.safcodental.com/product/carbon-reg-air",
+      "expected_item_count": 5,
+      "decoded_item_count": 5,
+      "accepted_item_count": 5,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 37,
+      "product_url": "https://www.safcodental.com/product/alasta-reg-aloe",
+      "expected_item_count": 4,
+      "decoded_item_count": 4,
+      "accepted_item_count": 4,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 38,
+      "product_url": "https://www.safcodental.com/product/aquaprene-reg",
+      "expected_item_count": 5,
+      "decoded_item_count": 5,
+      "accepted_item_count": 5,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 39,
+      "product_url": "https://www.safcodental.com/product/aurelia-reg-absolute-trade",
+      "expected_item_count": 5,
+      "decoded_item_count": 5,
+      "accepted_item_count": 5,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 40,
+      "product_url": "https://www.safcodental.com/product/alasta-pro",
+      "expected_item_count": 5,
+      "decoded_item_count": 5,
+      "accepted_item_count": 5,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 41,
+      "product_url": "https://www.safcodental.com/product/aurelia-reg-refresh-reg",
+      "expected_item_count": 5,
+      "decoded_item_count": 5,
+      "accepted_item_count": 5,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 42,
+      "product_url": "https://www.safcodental.com/product/revosoft-reg-nitrile-gloves",
+      "expected_item_count": 4,
+      "decoded_item_count": 4,
+      "accepted_item_count": 4,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 44,
+      "product_url": "https://www.safcodental.com/product/ossify-sup-reg-sup-dbm-cortical-fiber-bone-graft",
+      "expected_item_count": 6,
+      "decoded_item_count": 6,
+      "accepted_item_count": 6,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 45,
+      "product_url": "https://www.safcodental.com/product/safco-surestitch-trade-sutures",
+      "expected_item_count": 15,
+      "decoded_item_count": 15,
+      "accepted_item_count": 15,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 46,
+      "product_url": "https://www.safcodental.com/product/heliplug-reg",
+      "expected_item_count": 1,
+      "decoded_item_count": 1,
+      "accepted_item_count": 1,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 47,
+      "product_url": "https://www.safcodental.com/product/perma-sharp-reg-sutures",
+      "expected_item_count": 48,
+      "decoded_item_count": 48,
+      "accepted_item_count": 48,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 48,
+      "product_url": "https://www.safcodental.com/product/ethicon-sutures",
+      "expected_item_count": 26,
+      "decoded_item_count": 26,
+      "accepted_item_count": 26,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 49,
+      "product_url": "https://www.safcodental.com/product/healiaid-reg-strong-nbsp-strong-collagen",
+      "expected_item_count": 2,
+      "decoded_item_count": 2,
+      "accepted_item_count": 2,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 50,
+      "product_url": "https://www.safcodental.com/product/sodium-chloride-0-9-for-injection-b-braun",
+      "expected_item_count": 3,
+      "decoded_item_count": 3,
+      "accepted_item_count": 3,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 51,
+      "product_url": "https://www.safcodental.com/product/look-trade-sutures",
+      "expected_item_count": 43,
+      "decoded_item_count": 43,
+      "accepted_item_count": 43,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 52,
+      "product_url": "https://www.safcodental.com/product/dentalprox-veragraft-trade-dental-powder",
+      "expected_item_count": 13,
+      "decoded_item_count": 13,
+      "accepted_item_count": 13,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 53,
+      "product_url": "https://www.safcodental.com/product/sterile-water-for-injection-b-braun",
+      "expected_item_count": 4,
+      "decoded_item_count": 4,
+      "accepted_item_count": 4,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 54,
+      "product_url": "https://www.safcodental.com/product/surgical-blades-integra-miltex",
+      "expected_item_count": 17,
+      "decoded_item_count": 17,
+      "accepted_item_count": 17,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 55,
+      "product_url": "https://www.safcodental.com/product/sodium-chloride-0-9-for-injection-baxter",
+      "expected_item_count": 4,
+      "decoded_item_count": 4,
+      "accepted_item_count": 4,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 57,
+      "product_url": "https://www.safcodental.com/product/aurelia-sup-reg-sup-perform-sup-trade-sup",
+      "expected_item_count": 5,
+      "decoded_item_count": 5,
+      "accepted_item_count": 5,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 58,
+      "product_url": "https://www.safcodental.com/product/aurelia-reg-sonic-reg-100",
+      "expected_item_count": 5,
+      "decoded_item_count": 5,
+      "accepted_item_count": 5,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 59,
+      "product_url": "https://www.safcodental.com/product/compac-nitrile",
+      "expected_item_count": 5,
+      "decoded_item_count": 5,
+      "accepted_item_count": 5,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 60,
+      "product_url": "https://www.safcodental.com/product/halyard-black-nitrile",
+      "expected_item_count": 5,
+      "decoded_item_count": 5,
+      "accepted_item_count": 5,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 61,
+      "product_url": "https://www.safcodental.com/product/aurelia-reg-distinct-reg",
+      "expected_item_count": 4,
+      "decoded_item_count": 4,
+      "accepted_item_count": 4,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 62,
+      "product_url": "https://www.safcodental.com/product/true-comfort-reg-blu",
+      "expected_item_count": 5,
+      "decoded_item_count": 5,
+      "accepted_item_count": 5,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 63,
+      "product_url": "https://www.safcodental.com/product/aurelia-sup-reg-sup-prot-eacute-g-eacute-sup-reg-sup",
+      "expected_item_count": 5,
+      "decoded_item_count": 5,
+      "accepted_item_count": 5,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 64,
+      "product_url": "https://www.safcodental.com/product/aurelia-reg-bold-reg",
+      "expected_item_count": 5,
+      "decoded_item_count": 5,
+      "accepted_item_count": 5,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 65,
+      "product_url": "https://www.safcodental.com/product/ocean-pacific-sup-reg-sup-neonatural-sup-trade-sup",
+      "expected_item_count": 5,
+      "decoded_item_count": 5,
+      "accepted_item_count": 5,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 66,
+      "product_url": "https://www.safcodental.com/product/beesure-reg-neogrene-trade",
+      "expected_item_count": 4,
+      "decoded_item_count": 4,
+      "accepted_item_count": 4,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 67,
+      "product_url": "https://www.safcodental.com/product/safco-nitrilex-surpass-trade",
+      "expected_item_count": 5,
+      "decoded_item_count": 5,
+      "accepted_item_count": 5,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 68,
+      "product_url": "https://www.safcodental.com/product/safco-durasoft-trade-latex-gloves",
+      "expected_item_count": 5,
+      "decoded_item_count": 5,
+      "accepted_item_count": 5,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 70,
+      "product_url": "https://www.safcodental.com/product/periacryl-reg-90",
+      "expected_item_count": 2,
+      "decoded_item_count": 2,
+      "accepted_item_count": 2,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 71,
+      "product_url": "https://www.safcodental.com/product/r-t-r-syringe",
+      "expected_item_count": 2,
+      "decoded_item_count": 2,
+      "accepted_item_count": 2,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 72,
+      "product_url": "https://www.safcodental.com/product/surgical-blades-hu-friedy",
+      "expected_item_count": 7,
+      "decoded_item_count": 7,
+      "accepted_item_count": 7,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 73,
+      "product_url": "https://www.safcodental.com/product/guidor-reg-e-em-asy-graft-reg-em-classic",
+      "expected_item_count": 3,
+      "decoded_item_count": 3,
+      "accepted_item_count": 3,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 74,
+      "product_url": "https://www.safcodental.com/product/coldstar-disposable-instant-non-insulated-cold-pack",
+      "expected_item_count": 4,
+      "decoded_item_count": 4,
+      "accepted_item_count": 4,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 75,
+      "product_url": "https://www.safcodental.com/product/myco-medical-nbsp-glassvan-reg-scalpel-blades",
+      "expected_item_count": 9,
+      "decoded_item_count": 9,
+      "accepted_item_count": 9,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 76,
+      "product_url": "https://www.safcodental.com/product/surgical-blades",
+      "expected_item_count": 9,
+      "decoded_item_count": 9,
+      "accepted_item_count": 9,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 77,
+      "product_url": "https://www.safcodental.com/product/myco-medical-reli-reg-pro-sutures",
+      "expected_item_count": 36,
+      "decoded_item_count": 36,
+      "accepted_item_count": 36,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 78,
+      "product_url": "https://www.safcodental.com/product/instant-cold-pack",
+      "expected_item_count": 2,
+      "decoded_item_count": 2,
+      "accepted_item_count": 2,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 79,
+      "product_url": "https://www.safcodental.com/product/surgical-blades-bard-parker-bd",
+      "expected_item_count": 6,
+      "decoded_item_count": 6,
+      "accepted_item_count": 6,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 80,
+      "product_url": "https://www.safcodental.com/product/orca-trade-dry-socket",
+      "expected_item_count": 1,
+      "decoded_item_count": 1,
+      "accepted_item_count": 1,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 81,
+      "product_url": "https://www.safcodental.com/product/coe-pak-trade",
+      "expected_item_count": 2,
+      "decoded_item_count": 2,
+      "accepted_item_count": 2,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 83,
+      "product_url": "https://www.safcodental.com/product/safco-nitrilex-reg-ultrasoft-nitrile-gloves",
+      "expected_item_count": 5,
+      "decoded_item_count": 5,
+      "accepted_item_count": 5,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 84,
+      "product_url": "https://www.safcodental.com/product/safco-nitrilex-black",
+      "expected_item_count": 5,
+      "decoded_item_count": 5,
+      "accepted_item_count": 5,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 85,
+      "product_url": "https://www.safcodental.com/product/safco-nitrilex-soothe",
+      "expected_item_count": 5,
+      "decoded_item_count": 5,
+      "accepted_item_count": 5,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 86,
+      "product_url": "https://www.safcodental.com/product/safco-nitrilex-prevail-trade-nitrile-gloves",
+      "expected_item_count": 5,
+      "decoded_item_count": 5,
+      "accepted_item_count": 5,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 87,
+      "product_url": "https://www.safcodental.com/product/safco-nitrilex-reg-nitrile-gloves",
+      "expected_item_count": 5,
+      "decoded_item_count": 5,
+      "accepted_item_count": 5,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 88,
+      "product_url": "https://www.safcodental.com/product/quantum-blue",
+      "expected_item_count": 4,
+      "decoded_item_count": 4,
+      "accepted_item_count": 4,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 89,
+      "product_url": "https://www.safcodental.com/product/safco-ez-green-chloroprene",
+      "expected_item_count": 4,
+      "decoded_item_count": 4,
+      "accepted_item_count": 4,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 90,
+      "product_url": "https://www.safcodental.com/product/evolve-trade-300",
+      "expected_item_count": 5,
+      "decoded_item_count": 5,
+      "accepted_item_count": 5,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 91,
+      "product_url": "https://www.safcodental.com/product/aqua-source-reg",
+      "expected_item_count": 5,
+      "decoded_item_count": 5,
+      "accepted_item_count": 5,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 92,
+      "product_url": "https://www.safcodental.com/product/carbon-reg-nitrile",
+      "expected_item_count": 5,
+      "decoded_item_count": 5,
+      "accepted_item_count": 5,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 93,
+      "product_url": "https://www.safcodental.com/product/sigma-reg",
+      "expected_item_count": 5,
+      "decoded_item_count": 5,
+      "accepted_item_count": 5,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 94,
+      "product_url": "https://www.safcodental.com/product/inspire-trade",
+      "expected_item_count": 5,
+      "decoded_item_count": 5,
+      "accepted_item_count": 5,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 96,
+      "product_url": "https://www.safcodental.com/product/helitape-reg",
+      "expected_item_count": 1,
+      "decoded_item_count": 1,
+      "accepted_item_count": 1,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 97,
+      "product_url": "https://www.safcodental.com/product/barricaid-reg",
+      "expected_item_count": 1,
+      "decoded_item_count": 1,
+      "accepted_item_count": 1,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 98,
+      "product_url": "https://www.safcodental.com/product/iv-administration-sets",
+      "expected_item_count": 3,
+      "decoded_item_count": 3,
+      "accepted_item_count": 3,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 99,
+      "product_url": "https://www.safcodental.com/product/disposable-scalpels",
+      "expected_item_count": 4,
+      "decoded_item_count": 4,
+      "accepted_item_count": 4,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 100,
+      "product_url": "https://www.safcodental.com/product/myco-medical-technocut-reg-disposable-scalpels",
+      "expected_item_count": 5,
+      "decoded_item_count": 5,
+      "accepted_item_count": 5,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 101,
+      "product_url": "https://www.safcodental.com/product/disposable-scalpels-integra-miltex",
+      "expected_item_count": 4,
+      "decoded_item_count": 4,
+      "accepted_item_count": 4,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 102,
+      "product_url": "https://www.safcodental.com/product/lactated-ringer-s",
+      "expected_item_count": 2,
+      "decoded_item_count": 2,
+      "accepted_item_count": 2,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 103,
+      "product_url": "https://www.safcodental.com/product/actcel",
+      "expected_item_count": 1,
+      "decoded_item_count": 1,
+      "accepted_item_count": 1,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 104,
+      "product_url": "https://www.safcodental.com/product/disposable-scalpels-bard-parker-bd",
+      "expected_item_count": 3,
+      "decoded_item_count": 3,
+      "accepted_item_count": 3,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 105,
+      "product_url": "https://www.safcodental.com/product/surgical-blade-handles-bard-parker-bd",
+      "expected_item_count": 2,
+      "decoded_item_count": 2,
+      "accepted_item_count": 2,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 106,
+      "product_url": "https://www.safcodental.com/product/scalpel-handles-hu-friedy",
+      "expected_item_count": 5,
+      "decoded_item_count": 5,
+      "accepted_item_count": 5,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 107,
+      "product_url": "https://www.safcodental.com/product/orca-sup-trade-sup-foam",
+      "expected_item_count": 2,
+      "decoded_item_count": 2,
+      "accepted_item_count": 2,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 109,
+      "product_url": "https://www.safcodental.com/product/silkcare-reg",
+      "expected_item_count": 4,
+      "decoded_item_count": 4,
+      "accepted_item_count": 4,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 110,
+      "product_url": "https://www.safcodental.com/product/beesure-reg-glacier-nitrile",
+      "expected_item_count": 4,
+      "decoded_item_count": 4,
+      "accepted_item_count": 4,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 111,
+      "product_url": "https://www.safcodental.com/product/cyntek-reg",
+      "expected_item_count": 5,
+      "decoded_item_count": 5,
+      "accepted_item_count": 5,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 112,
+      "product_url": "https://www.safcodental.com/product/bio-nitrile-sup-reg-sup",
+      "expected_item_count": 5,
+      "decoded_item_count": 5,
+      "accepted_item_count": 5,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 113,
+      "product_url": "https://www.safcodental.com/product/crave-trade",
+      "expected_item_count": 4,
+      "decoded_item_count": 4,
+      "accepted_item_count": 4,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 114,
+      "product_url": "https://www.safcodental.com/product/xlim-reg",
+      "expected_item_count": 5,
+      "decoded_item_count": 5,
+      "accepted_item_count": 5,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 115,
+      "product_url": "https://www.safcodental.com/product/transcend-trade",
+      "expected_item_count": 4,
+      "decoded_item_count": 4,
+      "accepted_item_count": 4,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 116,
+      "product_url": "https://www.safcodental.com/product/microflex-reg-diamond-grip-plus-trade",
+      "expected_item_count": 5,
+      "decoded_item_count": 5,
+      "accepted_item_count": 5,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 117,
+      "product_url": "https://www.safcodental.com/product/contour-plus-trade",
+      "expected_item_count": 4,
+      "decoded_item_count": 4,
+      "accepted_item_count": 4,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 118,
+      "product_url": "https://www.safcodental.com/product/curve-reg-fitted",
+      "expected_item_count": 5,
+      "decoded_item_count": 5,
+      "accepted_item_count": 5,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 119,
+      "product_url": "https://www.safcodental.com/product/luxe-trade",
+      "expected_item_count": 5,
+      "decoded_item_count": 5,
+      "accepted_item_count": 5,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 120,
+      "product_url": "https://www.safcodental.com/product/nuvo-trade",
+      "expected_item_count": 4,
+      "decoded_item_count": 4,
+      "accepted_item_count": 4,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 122,
+      "product_url": "https://www.safcodental.com/product/coe-pak-trade-automix-nds",
+      "expected_item_count": 2,
+      "decoded_item_count": 2,
+      "accepted_item_count": 2,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 123,
+      "product_url": "https://www.safcodental.com/product/integra-sup-reg-sup-miltex-sup-reg-sup-helicote-sup-reg-sup",
+      "expected_item_count": 1,
+      "decoded_item_count": 1,
+      "accepted_item_count": 1,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 124,
+      "product_url": "https://www.safcodental.com/product/myco-medical-glassvan-reg-microsurgical-blades-carbon-steel",
+      "expected_item_count": 2,
+      "decoded_item_count": 2,
+      "accepted_item_count": 2,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 125,
+      "product_url": "https://www.safcodental.com/product/safety-scalpels",
+      "expected_item_count": 2,
+      "decoded_item_count": 2,
+      "accepted_item_count": 2,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 126,
+      "product_url": "https://www.safcodental.com/product/helimend-trade-and-helimend-trade-advanced",
+      "expected_item_count": 0,
+      "decoded_item_count": 0,
+      "accepted_item_count": 0,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 127,
+      "product_url": "https://www.safcodental.com/product/r-t-r-membrane",
+      "expected_item_count": 0,
+      "decoded_item_count": 0,
+      "accepted_item_count": 0,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 128,
+      "product_url": "https://www.safcodental.com/product/suture-needles-integra-miltex",
+      "expected_item_count": 1,
+      "decoded_item_count": 1,
+      "accepted_item_count": 1,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 129,
+      "product_url": "https://www.safcodental.com/product/microflex-reg-midknight-trade-touch",
+      "expected_item_count": 5,
+      "decoded_item_count": 5,
+      "accepted_item_count": 5,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 130,
+      "product_url": "https://www.safcodental.com/product/essential-textured",
+      "expected_item_count": 1,
+      "decoded_item_count": 1,
+      "accepted_item_count": 1,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 131,
+      "product_url": "https://www.safcodental.com/product/revo200-reg",
+      "expected_item_count": 1,
+      "decoded_item_count": 1,
+      "accepted_item_count": 1,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 132,
+      "product_url": "https://www.safcodental.com/product/contour-reg",
+      "expected_item_count": 0,
+      "decoded_item_count": 0,
+      "accepted_item_count": 0,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 133,
+      "product_url": "https://www.safcodental.com/product/trueform",
+      "expected_item_count": 2,
+      "decoded_item_count": 2,
+      "accepted_item_count": 2,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 134,
+      "product_url": "https://www.safcodental.com/product/beesure-reg-latex",
+      "expected_item_count": 5,
+      "decoded_item_count": 5,
+      "accepted_item_count": 5,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 135,
+      "product_url": "https://www.safcodental.com/product/pulse-nitrile",
+      "expected_item_count": 5,
+      "decoded_item_count": 5,
+      "accepted_item_count": 5,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 136,
+      "product_url": "https://www.safcodental.com/product/dermassist-sup-reg-sup-latex-surgical-gloves",
+      "expected_item_count": 8,
+      "decoded_item_count": 8,
+      "accepted_item_count": 8,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 137,
+      "product_url": "https://www.safcodental.com/product/powerform-black",
+      "expected_item_count": 5,
+      "decoded_item_count": 5,
+      "accepted_item_count": 5,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 138,
+      "product_url": "https://www.safcodental.com/product/nitriderm-sup-reg-sup-nbsp-nitrile-surgical-gloves",
+      "expected_item_count": 7,
+      "decoded_item_count": 7,
+      "accepted_item_count": 7,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 139,
+      "product_url": "https://www.safcodental.com/product/flexaprene-green",
+      "expected_item_count": 4,
+      "decoded_item_count": 4,
+      "accepted_item_count": 4,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 140,
+      "product_url": "https://www.safcodental.com/product/beesure-reg-slim-trade-nitrile",
+      "expected_item_count": 4,
+      "decoded_item_count": 4,
+      "accepted_item_count": 4,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 142,
+      "product_url": "https://www.safcodental.com/product/purple-nitrile",
+      "expected_item_count": 4,
+      "decoded_item_count": 4,
+      "accepted_item_count": 4,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 143,
+      "product_url": "https://www.safcodental.com/product/encore-reg-sensi-touch-reg-pf",
+      "expected_item_count": 6,
+      "decoded_item_count": 6,
+      "accepted_item_count": 6,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 144,
+      "product_url": "https://www.safcodental.com/product/micro-touch-sup-reg-sup-affinity-sup-reg-sup",
+      "expected_item_count": 5,
+      "decoded_item_count": 5,
+      "accepted_item_count": 5,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 145,
+      "product_url": "https://www.safcodental.com/product/pulse-trade-latex",
+      "expected_item_count": 5,
+      "decoded_item_count": 5,
+      "accepted_item_count": 5,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 146,
+      "product_url": "https://www.safcodental.com/product/aloepro-trade",
+      "expected_item_count": 4,
+      "decoded_item_count": 4,
+      "accepted_item_count": 4,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 147,
+      "product_url": "https://www.safcodental.com/product/pulse-reg-logic-trade",
+      "expected_item_count": 4,
+      "decoded_item_count": 4,
+      "accepted_item_count": 4,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 148,
+      "product_url": "https://www.safcodental.com/product/microflex-sup-reg-sup-neopro-sup-reg-sup",
+      "expected_item_count": 5,
+      "decoded_item_count": 5,
+      "accepted_item_count": 5,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 149,
+      "product_url": "https://www.safcodental.com/product/hu-friedy-nitrile-utility-gloves",
+      "expected_item_count": 4,
+      "decoded_item_count": 4,
+      "accepted_item_count": 4,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 150,
+      "product_url": "https://www.safcodental.com/product/microflex-reg-midknight-reg",
+      "expected_item_count": 1,
+      "decoded_item_count": 1,
+      "accepted_item_count": 1,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 151,
+      "product_url": "https://www.safcodental.com/product/wire-glove-box-holder",
+      "expected_item_count": 3,
+      "decoded_item_count": 3,
+      "accepted_item_count": 3,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 152,
+      "product_url": "https://www.safcodental.com/product/blossom-reg",
+      "expected_item_count": 1,
+      "decoded_item_count": 1,
+      "accepted_item_count": 1,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 153,
+      "product_url": "https://www.safcodental.com/product/microflex-reg-92-134",
+      "expected_item_count": 5,
+      "decoded_item_count": 5,
+      "accepted_item_count": 5,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 155,
+      "product_url": "https://www.safcodental.com/product/microflex-sup-reg-sup-neosoft-trade",
+      "expected_item_count": 1,
+      "decoded_item_count": 1,
+      "accepted_item_count": 1,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 156,
+      "product_url": "https://www.safcodental.com/product/proderm-trade",
+      "expected_item_count": 1,
+      "decoded_item_count": 1,
+      "accepted_item_count": 1,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 157,
+      "product_url": "https://www.safcodental.com/product/microflex-reg-tq-601-soft-white-nitrile",
+      "expected_item_count": 1,
+      "decoded_item_count": 1,
+      "accepted_item_count": 1,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 158,
+      "product_url": "https://www.safcodental.com/product/nitriderm-reg-ultra-white",
+      "expected_item_count": 1,
+      "decoded_item_count": 1,
+      "accepted_item_count": 1,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 159,
+      "product_url": "https://www.safcodental.com/product/micro-touch-reg-nitrile",
+      "expected_item_count": 1,
+      "decoded_item_count": 1,
+      "accepted_item_count": 1,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 160,
+      "product_url": "https://www.safcodental.com/product/vitalgard-reg",
+      "expected_item_count": 1,
+      "decoded_item_count": 1,
+      "accepted_item_count": 1,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 161,
+      "product_url": "https://www.safcodental.com/product/halo-trade",
+      "expected_item_count": 1,
+      "decoded_item_count": 1,
+      "accepted_item_count": 1,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 162,
+      "product_url": "https://www.safcodental.com/product/micro-touch-reg-nitrafree-trade-blue",
+      "expected_item_count": 1,
+      "decoded_item_count": 1,
+      "accepted_item_count": 1,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    },
+    {
+      "task_id": 163,
+      "product_url": "https://www.safcodental.com/product/polymed-reg",
+      "expected_item_count": 0,
+      "decoded_item_count": 0,
+      "accepted_item_count": 0,
+      "count_status": "matched",
+      "missing_source_rows": 0
+    }
+  ],
+  "fetch_attempts": 163,
+  "uncertain_fetches": 0,
+  "unresolved": [
+    {
+      "task_id": 19,
+      "kind": "product",
+      "target_key": "https://www.safcodental.com/product/ossif-i-sem-trade",
+      "status": "partial",
+      "stage": "extract",
+      "issues": [
+        {
+          "code": "unresolved_selling_unit",
+          "field": "selling_unit",
+          "row": 16,
+          "sku": "6130031",
+          "source_event_id": 57
+        },
+        {
+          "code": "unresolved_pack_size",
+          "field": "pack_size",
+          "row": 16,
+          "sku": "6130031",
+          "source_event_id": 57
+        },
+        {
+          "code": "unresolved_selling_unit",
+          "field": "selling_unit",
+          "row": 17,
+          "sku": "6130033",
+          "source_event_id": 57
+        },
+        {
+          "code": "unresolved_pack_size",
+          "field": "pack_size",
+          "row": 17,
+          "sku": "6130033",
+          "source_event_id": 57
+        }
+      ],
+      "notes": [
+        {
+          "sku": "6130031",
+          "field": "selling_unit",
+          "reason": "unparsed_source",
+          "source_field": "masterData.name",
+          "source_text": "Demineralized bone allograft sponges 10 x 6 x 7mm"
+        },
+        {
+          "sku": "6130031",
+          "field": "selling_unit",
+          "reason": "unparsed_source",
+          "source_field": "masterData.description",
+          "source_text": "10 x 6 x 7mm"
+        },
+        {
+          "sku": "6130031",
+          "field": "pack_size",
+          "reason": "unparsed_source",
+          "source_field": "masterData.name",
+          "source_text": "Demineralized bone allograft sponges 10 x 6 x 7mm"
+        },
+        {
+          "sku": "6130031",
+          "field": "pack_size",
+          "reason": "unparsed_source",
+          "source_field": "masterData.description",
+          "source_text": "10 x 6 x 7mm"
+        },
+        {
+          "sku": "6130033",
+          "field": "selling_unit",
+          "reason": "unparsed_source",
+          "source_field": "masterData.name",
+          "source_text": "Demineralized bone allograft sponges 20 x 6 x 7mm"
+        },
+        {
+          "sku": "6130033",
+          "field": "selling_unit",
+          "reason": "unparsed_source",
+          "source_field": "masterData.description",
+          "source_text": "20 x 6 x 7mm"
+        },
+        {
+          "sku": "6130033",
+          "field": "pack_size",
+          "reason": "unparsed_source",
+          "source_field": "masterData.name",
+          "source_text": "Demineralized bone allograft sponges 20 x 6 x 7mm"
+        },
+        {
+          "sku": "6130033",
+          "field": "pack_size",
+          "reason": "unparsed_source",
+          "source_field": "masterData.description",
+          "source_text": "20 x 6 x 7mm"
+        }
+      ]
+    },
+    {
+      "task_id": 23,
+      "kind": "product",
+      "target_key": "https://www.safcodental.com/product/collashield-trade-collagen-membrane",
+      "status": "partial",
+      "stage": "extract",
+      "issues": [
+        {
+          "code": "unresolved_selling_unit",
+          "field": "selling_unit",
+          "row": 0,
+          "sku": "6130050",
+          "source_event_id": 67
+        },
+        {
+          "code": "unresolved_pack_size",
+          "field": "pack_size",
+          "row": 0,
+          "sku": "6130050",
+          "source_event_id": 67
+        },
+        {
+          "code": "unresolved_selling_unit",
+          "field": "selling_unit",
+          "row": 1,
+          "sku": "6130053",
+          "source_event_id": 67
+        },
+        {
+          "code": "unresolved_pack_size",
+          "field": "pack_size",
+          "row": 1,
+          "sku": "6130053",
+          "source_event_id": 67
+        },
+        {
+          "code": "unresolved_selling_unit",
+          "field": "selling_unit",
+          "row": 2,
+          "sku": "6130056",
+          "source_event_id": 67
+        },
+        {
+          "code": "unresolved_pack_size",
+          "field": "pack_size",
+          "row": 2,
+          "sku": "6130056",
+          "source_event_id": 67
+        }
+      ],
+      "notes": [
+        {
+          "sku": "6130050",
+          "field": "selling_unit",
+          "reason": "unparsed_source",
+          "source_field": "masterData.name",
+          "source_text": "CollaShield Collagen Membrane 15x20mm"
+        },
+        {
+          "sku": "6130050",
+          "field": "selling_unit",
+          "reason": "unparsed_source",
+          "source_field": "masterData.description",
+          "source_text": "15 x 20mm"
+        },
+        {
+          "sku": "6130050",
+          "field": "pack_size",
+          "reason": "unparsed_source",
+          "source_field": "masterData.name",
+          "source_text": "CollaShield Collagen Membrane 15x20mm"
+        },
+        {
+          "sku": "6130050",
+          "field": "pack_size",
+          "reason": "unparsed_source",
+          "source_field": "masterData.description",
+          "source_text": "15 x 20mm"
+        },
+        {
+          "sku": "6130053",
+          "field": "selling_unit",
+          "reason": "unparsed_source",
+          "source_field": "masterData.name",
+          "source_text": "CollaShield Collagen Membrane 20x30mm"
+        },
+        {
+          "sku": "6130053",
+          "field": "selling_unit",
+          "reason": "unparsed_source",
+          "source_field": "masterData.description",
+          "source_text": "20 x 30mm"
+        },
+        {
+          "sku": "6130053",
+          "field": "pack_size",
+          "reason": "unparsed_source",
+          "source_field": "masterData.name",
+          "source_text": "CollaShield Collagen Membrane 20x30mm"
+        },
+        {
+          "sku": "6130053",
+          "field": "pack_size",
+          "reason": "unparsed_source",
+          "source_field": "masterData.description",
+          "source_text": "20 x 30mm"
+        },
+        {
+          "sku": "6130056",
+          "field": "selling_unit",
+          "reason": "unparsed_source",
+          "source_field": "masterData.name",
+          "source_text": "CollaShield Collagen Membrane 30x40mm"
+        },
+        {
+          "sku": "6130056",
+          "field": "selling_unit",
+          "reason": "unparsed_source",
+          "source_field": "masterData.description",
+          "source_text": "30 x 40mm"
+        },
+        {
+          "sku": "6130056",
+          "field": "pack_size",
+          "reason": "unparsed_source",
+          "source_field": "masterData.name",
+          "source_text": "CollaShield Collagen Membrane 30x40mm"
+        },
+        {
+          "sku": "6130056",
+          "field": "pack_size",
+          "reason": "unparsed_source",
+          "source_field": "masterData.description",
+          "source_text": "30 x 40mm"
+        }
+      ]
+    },
+    {
+      "task_id": 29,
+      "kind": "product",
+      "target_key": "https://www.safcodental.com/product/ossify-sup-reg-sup-cortical-bone-sheet",
+      "status": "partial",
+      "stage": "extract",
+      "issues": [
+        {
+          "code": "unresolved_selling_unit",
+          "field": "selling_unit",
+          "row": 0,
+          "sku": "6130102",
+          "source_event_id": 81
+        },
+        {
+          "code": "unresolved_pack_size",
+          "field": "pack_size",
+          "row": 0,
+          "sku": "6130102",
+          "source_event_id": 81
+        },
+        {
+          "code": "unresolved_selling_unit",
+          "field": "selling_unit",
+          "row": 1,
+          "sku": "6130104",
+          "source_event_id": 81
+        },
+        {
+          "code": "unresolved_pack_size",
+          "field": "pack_size",
+          "row": 1,
+          "sku": "6130104",
+          "source_event_id": 81
+        }
+      ],
+      "notes": [
+        {
+          "sku": "6130102",
+          "field": "selling_unit",
+          "reason": "unparsed_source",
+          "source_field": "masterData.name",
+          "source_text": "Ossify Cortical Bone Sheet 15x20mm"
+        },
+        {
+          "sku": "6130102",
+          "field": "selling_unit",
+          "reason": "unparsed_source",
+          "source_field": "masterData.description",
+          "source_text": "15x20mm"
+        },
+        {
+          "sku": "6130102",
+          "field": "pack_size",
+          "reason": "unparsed_source",
+          "source_field": "masterData.name",
+          "source_text": "Ossify Cortical Bone Sheet 15x20mm"
+        },
+        {
+          "sku": "6130102",
+          "field": "pack_size",
+          "reason": "unparsed_source",
+          "source_field": "masterData.description",
+          "source_text": "15x20mm"
+        },
+        {
+          "sku": "6130104",
+          "field": "selling_unit",
+          "reason": "unparsed_source",
+          "source_field": "masterData.name",
+          "source_text": "Ossify Cortical Bone Sheet 20x30mm"
+        },
+        {
+          "sku": "6130104",
+          "field": "selling_unit",
+          "reason": "unparsed_source",
+          "source_field": "masterData.description",
+          "source_text": "20x30mm"
+        },
+        {
+          "sku": "6130104",
+          "field": "pack_size",
+          "reason": "unparsed_source",
+          "source_field": "masterData.name",
+          "source_text": "Ossify Cortical Bone Sheet 20x30mm"
+        },
+        {
+          "sku": "6130104",
+          "field": "pack_size",
+          "reason": "unparsed_source",
+          "source_field": "masterData.description",
+          "source_text": "20x30mm"
+        }
+      ]
+    },
+    {
+      "task_id": 52,
+      "kind": "product",
+      "target_key": "https://www.safcodental.com/product/dentalprox-veragraft-trade-dental-powder",
+      "status": "partial",
+      "stage": "extract",
+      "issues": [
+        {
+          "code": "unresolved_selling_unit",
+          "field": "selling_unit",
+          "row": 10,
+          "sku": "3257157",
+          "source_event_id": 125
+        },
+        {
+          "code": "unresolved_pack_size",
+          "field": "pack_size",
+          "row": 10,
+          "sku": "3257157",
+          "source_event_id": 125
+        },
+        {
+          "code": "unresolved_selling_unit",
+          "field": "selling_unit",
+          "row": 11,
+          "sku": "3257158",
+          "source_event_id": 125
+        },
+        {
+          "code": "unresolved_pack_size",
+          "field": "pack_size",
+          "row": 11,
+          "sku": "3257158",
+          "source_event_id": 125
+        },
+        {
+          "code": "unresolved_selling_unit",
+          "field": "selling_unit",
+          "row": 12,
+          "sku": "3257159",
+          "source_event_id": 125
+        },
+        {
+          "code": "unresolved_pack_size",
+          "field": "pack_size",
+          "row": 12,
+          "sku": "3257159",
+          "source_event_id": 125
+        }
+      ],
+      "notes": [
+        {
+          "sku": "3257157",
+          "field": "selling_unit",
+          "reason": "unparsed_source",
+          "source_field": "masterData.name",
+          "source_text": "VeraFuse&trade; demineralized bone matrix putty 0.7cc"
+        },
+        {
+          "sku": "3257157",
+          "field": "selling_unit",
+          "reason": "unparsed_source",
+          "source_field": "masterData.description",
+          "source_text": "0.7cc"
+        },
+        {
+          "sku": "3257157",
+          "field": "pack_size",
+          "reason": "unparsed_source",
+          "source_field": "masterData.name",
+          "source_text": "VeraFuse&trade; demineralized bone matrix putty 0.7cc"
+        },
+        {
+          "sku": "3257157",
+          "field": "pack_size",
+          "reason": "unparsed_source",
+          "source_field": "masterData.description",
+          "source_text": "0.7cc"
+        },
+        {
+          "sku": "3257158",
+          "field": "selling_unit",
+          "reason": "unparsed_source",
+          "source_field": "masterData.name",
+          "source_text": "VeraFuse&trade; demineralized bone matrix putty 1.0cc"
+        },
+        {
+          "sku": "3257158",
+          "field": "selling_unit",
+          "reason": "unparsed_source",
+          "source_field": "masterData.description",
+          "source_text": "1.0cc"
+        },
+        {
+          "sku": "3257158",
+          "field": "pack_size",
+          "reason": "unparsed_source",
+          "source_field": "masterData.name",
+          "source_text": "VeraFuse&trade; demineralized bone matrix putty 1.0cc"
+        },
+        {
+          "sku": "3257158",
+          "field": "pack_size",
+          "reason": "unparsed_source",
+          "source_field": "masterData.description",
+          "source_text": "1.0cc"
+        },
+        {
+          "sku": "3257159",
+          "field": "selling_unit",
+          "reason": "unparsed_source",
+          "source_field": "masterData.name",
+          "source_text": "VeraFuse&trade; demineralized bone matrix putty 2.5cc"
+        },
+        {
+          "sku": "3257159",
+          "field": "selling_unit",
+          "reason": "unparsed_source",
+          "source_field": "masterData.description",
+          "source_text": "2.5cc"
+        },
+        {
+          "sku": "3257159",
+          "field": "pack_size",
+          "reason": "unparsed_source",
+          "source_field": "masterData.name",
+          "source_text": "VeraFuse&trade; demineralized bone matrix putty 2.5cc"
+        },
+        {
+          "sku": "3257159",
+          "field": "pack_size",
+          "reason": "unparsed_source",
+          "source_field": "masterData.description",
+          "source_text": "2.5cc"
+        }
+      ]
+    },
+    {
+      "task_id": 77,
+      "kind": "product",
+      "target_key": "https://www.safcodental.com/product/myco-medical-reli-reg-pro-sutures",
+      "status": "partial",
+      "stage": "extract",
+      "issues": [
+        {
+          "code": "unresolved_selling_unit",
+          "field": "selling_unit",
+          "row": 13,
+          "sku": "7570032",
+          "source_event_id": 173
+        },
+        {
+          "code": "unresolved_pack_size",
+          "field": "pack_size",
+          "row": 13,
+          "sku": "7570032",
+          "source_event_id": 173
+        },
+        {
+          "code": "unresolved_selling_unit",
+          "field": "selling_unit",
+          "row": 19,
+          "sku": "7570011",
+          "source_event_id": 173
+        },
+        {
+          "code": "unresolved_pack_size",
+          "field": "pack_size",
+          "row": 19,
+          "sku": "7570011",
+          "source_event_id": 173
+        },
+        {
+          "code": "unresolved_selling_unit",
+          "field": "selling_unit",
+          "row": 21,
+          "sku": "7570020",
+          "source_event_id": 173
+        },
+        {
+          "code": "unresolved_pack_size",
+          "field": "pack_size",
+          "row": 21,
+          "sku": "7570020",
+          "source_event_id": 173
+        },
+        {
+          "code": "unresolved_selling_unit",
+          "field": "selling_unit",
+          "row": 35,
+          "sku": "7570061",
+          "source_event_id": 173
+        },
+        {
+          "code": "unresolved_pack_size",
+          "field": "pack_size",
+          "row": 35,
+          "sku": "7570061",
+          "source_event_id": 173
+        }
+      ],
+      "notes": [
+        {
+          "sku": "7570011",
+          "field": "selling_unit",
+          "reason": "unparsed_source",
+          "source_field": "masterData.name",
+          "source_text": "YP-3  5-0  18\"  Redigut Plain Pro Twisted Gut"
+        },
+        {
+          "sku": "7570011",
+          "field": "selling_unit",
+          "reason": "unparsed_source",
+          "source_field": "masterData.description",
+          "source_text": "YP-3  5-0  18\"  Redigut Plain Pro Twisted Gut"
+        },
+        {
+          "sku": "7570011",
+          "field": "pack_size",
+          "reason": "unparsed_source",
+          "source_field": "masterData.name",
+          "source_text": "YP-3  5-0  18\"  Redigut Plain Pro Twisted Gut"
+        },
+        {
+          "sku": "7570011",
+          "field": "pack_size",
+          "reason": "unparsed_source",
+          "source_field": "masterData.description",
+          "source_text": "YP-3  5-0  18\"  Redigut Plain Pro Twisted Gut"
+        },
+        {
+          "sku": "7570020",
+          "field": "selling_unit",
+          "reason": "unparsed_source",
+          "source_field": "masterData.name",
+          "source_text": "YP-3  5-0  18\"  Redisorb Pro Coated Violet Braided PGA"
+        },
+        {
+          "sku": "7570020",
+          "field": "selling_unit",
+          "reason": "unparsed_source",
+          "source_field": "masterData.description",
+          "source_text": "YP-3  5-0  18\"  Redisorb Pro Coated Violet Braided PGA"
+        },
+        {
+          "sku": "7570020",
+          "field": "pack_size",
+          "reason": "unparsed_source",
+          "source_field": "masterData.name",
+          "source_text": "YP-3  5-0  18\"  Redisorb Pro Coated Violet Braided PGA"
+        },
+        {
+          "sku": "7570020",
+          "field": "pack_size",
+          "reason": "unparsed_source",
+          "source_field": "masterData.description",
+          "source_text": "YP-3  5-0  18\"  Redisorb Pro Coated Violet Braided PGA"
+        },
+        {
+          "sku": "7570032",
+          "field": "selling_unit",
+          "reason": "unparsed_source",
+          "source_field": "masterData.name",
+          "source_text": "YFS-2  3-0  30\"  Redigut Plain Pro Twisted Gut"
+        },
+        {
+          "sku": "7570032",
+          "field": "selling_unit",
+          "reason": "unparsed_source",
+          "source_field": "masterData.description",
+          "source_text": "YFS-2  3-0  30\"  Redigut Plain Pro Twisted Gut"
+        },
+        {
+          "sku": "7570032",
+          "field": "pack_size",
+          "reason": "unparsed_source",
+          "source_field": "masterData.name",
+          "source_text": "YFS-2  3-0  30\"  Redigut Plain Pro Twisted Gut"
+        },
+        {
+          "sku": "7570032",
+          "field": "pack_size",
+          "reason": "unparsed_source",
+          "source_field": "masterData.description",
+          "source_text": "YFS-2  3-0  30\"  Redigut Plain Pro Twisted Gut"
+        },
+        {
+          "sku": "7570061",
+          "field": "selling_unit",
+          "reason": "unparsed_source",
+          "source_field": "masterData.name",
+          "source_text": "YFS-1  3-0  18\"  Redisilk Pro Black Organic Silk"
+        },
+        {
+          "sku": "7570061",
+          "field": "selling_unit",
+          "reason": "unparsed_source",
+          "source_field": "masterData.description",
+          "source_text": "YFS-1  3-0  18\"  Redisilk Pro Black Organic Silk"
+        },
+        {
+          "sku": "7570061",
+          "field": "pack_size",
+          "reason": "unparsed_source",
+          "source_field": "masterData.name",
+          "source_text": "YFS-1  3-0  18\"  Redisilk Pro Black Organic Silk"
+        },
+        {
+          "sku": "7570061",
+          "field": "pack_size",
+          "reason": "unparsed_source",
+          "source_field": "masterData.description",
+          "source_text": "YFS-1  3-0  18\"  Redisilk Pro Black Organic Silk"
+        }
+      ]
+    },
+    {
+      "task_id": 81,
+      "kind": "product",
+      "target_key": "https://www.safcodental.com/product/coe-pak-trade",
+      "status": "partial",
+      "stage": "extract",
+      "issues": [
+        {
+          "code": "unresolved_selling_unit",
+          "field": "selling_unit",
+          "row": 0,
+          "sku": "2802010",
+          "source_event_id": 183
+        },
+        {
+          "code": "unresolved_pack_size",
+          "field": "pack_size",
+          "row": 0,
+          "sku": "2802010",
+          "source_event_id": 183
+        },
+        {
+          "code": "unresolved_selling_unit",
+          "field": "selling_unit",
+          "row": 1,
+          "sku": "2802035",
+          "source_event_id": 183
+        },
+        {
+          "code": "unresolved_pack_size",
+          "field": "pack_size",
+          "row": 1,
+          "sku": "2802035",
+          "source_event_id": 183
+        }
+      ],
+      "notes": [
+        {
+          "sku": "2802010",
+          "field": "selling_unit",
+          "reason": "unparsed_source",
+          "source_field": "masterData.name",
+          "source_text": "Coe-Pak standard package regular body, regular set"
+        },
+        {
+          "sku": "2802010",
+          "field": "selling_unit",
+          "reason": "unparsed_source",
+          "source_field": "masterData.description",
+          "source_text": "standard package, regular body/regular set"
+        },
+        {
+          "sku": "2802010",
+          "field": "pack_size",
+          "reason": "unparsed_source",
+          "source_field": "masterData.name",
+          "source_text": "Coe-Pak standard package regular body, regular set"
+        },
+        {
+          "sku": "2802010",
+          "field": "pack_size",
+          "reason": "unparsed_source",
+          "source_field": "masterData.description",
+          "source_text": "standard package, regular body/regular set"
+        },
+        {
+          "sku": "2802035",
+          "field": "selling_unit",
+          "reason": "unparsed_source",
+          "source_field": "masterData.name",
+          "source_text": "Coe-Pak standard package hard body, fast set"
+        },
+        {
+          "sku": "2802035",
+          "field": "selling_unit",
+          "reason": "unparsed_source",
+          "source_field": "masterData.description",
+          "source_text": "standard package, hard body/fast set"
+        },
+        {
+          "sku": "2802035",
+          "field": "pack_size",
+          "reason": "unparsed_source",
+          "source_field": "masterData.name",
+          "source_text": "Coe-Pak standard package hard body, fast set"
+        },
+        {
+          "sku": "2802035",
+          "field": "pack_size",
+          "reason": "unparsed_source",
+          "source_field": "masterData.description",
+          "source_text": "standard package, hard body/fast set"
+        }
+      ]
+    },
+    {
+      "task_id": 97,
+      "kind": "product",
+      "target_key": "https://www.safcodental.com/product/barricaid-reg",
+      "status": "partial",
+      "stage": "extract",
+      "issues": [
+        {
+          "code": "unresolved_selling_unit",
+          "field": "selling_unit",
+          "row": 0,
+          "sku": "2545052",
+          "source_event_id": 213
+        },
+        {
+          "code": "unresolved_pack_size",
+          "field": "pack_size",
+          "row": 0,
+          "sku": "2545052",
+          "source_event_id": 213
+        }
+      ],
+      "notes": [
+        {
+          "sku": "2545052",
+          "field": "selling_unit",
+          "reason": "unparsed_source",
+          "source_field": "masterData.name",
+          "source_text": "Barricaid standard package"
+        },
+        {
+          "sku": "2545052",
+          "field": "selling_unit",
+          "reason": "unparsed_source",
+          "source_field": "masterData.description",
+          "source_text": "Standard package"
+        },
+        {
+          "sku": "2545052",
+          "field": "pack_size",
+          "reason": "unparsed_source",
+          "source_field": "masterData.name",
+          "source_text": "Barricaid standard package"
+        },
+        {
+          "sku": "2545052",
+          "field": "pack_size",
+          "reason": "unparsed_source",
+          "source_field": "masterData.description",
+          "source_text": "Standard package"
+        }
+      ]
+    },
+    {
+      "task_id": 106,
+      "kind": "product",
+      "target_key": "https://www.safcodental.com/product/scalpel-handles-hu-friedy",
+      "status": "partial",
+      "stage": "extract",
+      "issues": [
+        {
+          "code": "unresolved_selling_unit",
+          "field": "selling_unit",
+          "row": 0,
+          "sku": "3920389",
+          "source_event_id": 233
+        },
+        {
+          "code": "unresolved_pack_size",
+          "field": "pack_size",
+          "row": 0,
+          "sku": "3920389",
+          "source_event_id": 233
+        },
+        {
+          "code": "unresolved_selling_unit",
+          "field": "selling_unit",
+          "row": 1,
+          "sku": "3921896",
+          "source_event_id": 233
+        },
+        {
+          "code": "unresolved_pack_size",
+          "field": "pack_size",
+          "row": 1,
+          "sku": "3921896",
+          "source_event_id": 233
+        },
+        {
+          "code": "unresolved_selling_unit",
+          "field": "selling_unit",
+          "row": 2,
+          "sku": "3928908",
+          "source_event_id": 233
+        },
+        {
+          "code": "unresolved_pack_size",
+          "field": "pack_size",
+          "row": 2,
+          "sku": "3928908",
+          "source_event_id": 233
+        },
+        {
+          "code": "unresolved_selling_unit",
+          "field": "selling_unit",
+          "row": 3,
+          "sku": "3928914",
+          "source_event_id": 233
+        },
+        {
+          "code": "unresolved_pack_size",
+          "field": "pack_size",
+          "row": 3,
+          "sku": "3928914",
+          "source_event_id": 233
+        },
+        {
+          "code": "unresolved_selling_unit",
+          "field": "selling_unit",
+          "row": 4,
+          "sku": "3929442",
+          "source_event_id": 233
+        },
+        {
+          "code": "unresolved_pack_size",
+          "field": "pack_size",
+          "row": 4,
+          "sku": "3929442",
+          "source_event_id": 233
+        }
+      ],
+      "notes": [
+        {
+          "sku": "3920389",
+          "field": "selling_unit",
+          "reason": "unparsed_source",
+          "source_field": "masterData.name",
+          "source_text": "Scalpel Handle #5 round"
+        },
+        {
+          "sku": "3920389",
+          "field": "selling_unit",
+          "reason": "unparsed_source",
+          "source_field": "masterData.description",
+          "source_text": "#5 round"
+        },
+        {
+          "sku": "3920389",
+          "field": "pack_size",
+          "reason": "unparsed_source",
+          "source_field": "masterData.name",
+          "source_text": "Scalpel Handle #5 round"
+        },
+        {
+          "sku": "3920389",
+          "field": "pack_size",
+          "reason": "unparsed_source",
+          "source_field": "masterData.description",
+          "source_text": "#5 round"
+        },
+        {
+          "sku": "3921896",
+          "field": "selling_unit",
+          "reason": "unparsed_source",
+          "source_field": "masterData.name",
+          "source_text": "Scalpel Handle #5 round European style"
+        },
+        {
+          "sku": "3921896",
+          "field": "selling_unit",
+          "reason": "unparsed_source",
+          "source_field": "masterData.description",
+          "source_text": "#5 round European style"
+        },
+        {
+          "sku": "3921896",
+          "field": "pack_size",
+          "reason": "unparsed_source",
+          "source_field": "masterData.name",
+          "source_text": "Scalpel Handle #5 round European style"
+        },
+        {
+          "sku": "3921896",
+          "field": "pack_size",
+          "reason": "unparsed_source",
+          "source_field": "masterData.description",
+          "source_text": "#5 round European style"
+        },
+        {
+          "sku": "3928908",
+          "field": "selling_unit",
+          "reason": "unparsed_source",
+          "source_field": "masterData.name",
+          "source_text": "Scalpel Handle #3 flat"
+        },
+        {
+          "sku": "3928908",
+          "field": "selling_unit",
+          "reason": "unparsed_source",
+          "source_field": "masterData.description",
+          "source_text": "#3 flat"
+        },
+        {
+          "sku": "3928908",
+          "field": "pack_size",
+          "reason": "unparsed_source",
+          "source_field": "masterData.name",
+          "source_text": "Scalpel Handle #3 flat"
+        },
+        {
+          "sku": "3928908",
+          "field": "pack_size",
+          "reason": "unparsed_source",
+          "source_field": "masterData.description",
+          "source_text": "#3 flat"
+        },
+        {
+          "sku": "3928914",
+          "field": "selling_unit",
+          "reason": "unparsed_source",
+          "source_field": "masterData.name",
+          "source_text": "Scalpel Handle #5 round straight"
+        },
+        {
+          "sku": "3928914",
+          "field": "selling_unit",
+          "reason": "unparsed_source",
+          "source_field": "masterData.description",
+          "source_text": "#5 round straight"
+        },
+        {
+          "sku": "3928914",
+          "field": "pack_size",
+          "reason": "unparsed_source",
+          "source_field": "masterData.name",
+          "source_text": "Scalpel Handle #5 round straight"
+        },
+        {
+          "sku": "3928914",
+          "field": "pack_size",
+          "reason": "unparsed_source",
+          "source_field": "masterData.description",
+          "source_text": "#5 round straight"
+        },
+        {
+          "sku": "3929442",
+          "field": "selling_unit",
+          "reason": "unparsed_source",
+          "source_field": "masterData.name",
+          "source_text": "Scalpel Blade Holder #7 mini (#7 SatinSteel Colours handle)"
+        },
+        {
+          "sku": "3929442",
+          "field": "selling_unit",
+          "reason": "unparsed_source",
+          "source_field": "masterData.description",
+          "source_text": "7 mini blade scalpel holder, #7 SatinSteel Colours handle"
+        },
+        {
+          "sku": "3929442",
+          "field": "pack_size",
+          "reason": "unparsed_source",
+          "source_field": "masterData.name",
+          "source_text": "Scalpel Blade Holder #7 mini (#7 SatinSteel Colours handle)"
+        },
+        {
+          "sku": "3929442",
+          "field": "pack_size",
+          "reason": "unparsed_source",
+          "source_field": "masterData.description",
+          "source_text": "7 mini blade scalpel holder, #7 SatinSteel Colours handle"
+        }
+      ]
+    },
+    {
+      "task_id": 122,
+      "kind": "product",
+      "target_key": "https://www.safcodental.com/product/coe-pak-trade-automix-nds",
+      "status": "partial",
+      "stage": "extract",
+      "issues": [
+        {
+          "code": "unresolved_selling_unit",
+          "field": "selling_unit",
+          "row": 0,
+          "sku": "2802603",
+          "source_event_id": 263
+        },
+        {
+          "code": "unresolved_pack_size",
+          "field": "pack_size",
+          "row": 0,
+          "sku": "2802603",
+          "source_event_id": 263
+        }
+      ],
+      "notes": [
+        {
+          "sku": "2802603",
+          "field": "selling_unit",
+          "reason": "unparsed_source",
+          "source_field": "masterData.name",
+          "source_text": "Coe-Pak Automix NDS standard package"
+        },
+        {
+          "sku": "2802603",
+          "field": "selling_unit",
+          "reason": "unparsed_source",
+          "source_field": "masterData.description",
+          "source_text": "standard package"
+        },
+        {
+          "sku": "2802603",
+          "field": "pack_size",
+          "reason": "unparsed_source",
+          "source_field": "masterData.name",
+          "source_text": "Coe-Pak Automix NDS standard package"
+        },
+        {
+          "sku": "2802603",
+          "field": "pack_size",
+          "reason": "unparsed_source",
+          "source_field": "masterData.description",
+          "source_text": "standard package"
+        },
+        {
+          "sku": "2807145",
+          "field": "selling_unit",
+          "reason": "normalized_source_wording",
+          "source_field": "masterData.name",
+          "source_text": "mixing tips regular body (aqua) 48/pkg"
+        },
+        {
+          "sku": "2807145",
+          "field": "selling_unit",
+          "reason": "normalized_source_wording",
+          "source_field": "masterData.description",
+          "source_text": "regular body mixing tips (aqua), 48/pkg"
+        }
+      ]
+    },
+    {
+      "task_id": 126,
+      "kind": "product",
+      "target_key": "https://www.safcodental.com/product/helimend-trade-and-helimend-trade-advanced",
+      "status": "failed",
+      "stage": "recovery",
+      "issues": [
+        {
+          "code": "no_usable_items",
+          "source_event_id": 273
+        }
+      ],
+      "notes": []
+    },
+    {
+      "task_id": 127,
+      "kind": "product",
+      "target_key": "https://www.safcodental.com/product/r-t-r-membrane",
+      "status": "failed",
+      "stage": "recovery",
+      "issues": [
+        {
+          "code": "no_usable_items",
+          "source_event_id": 277
+        }
+      ],
+      "notes": []
+    },
+    {
+      "task_id": 132,
+      "kind": "product",
+      "target_key": "https://www.safcodental.com/product/contour-reg",
+      "status": "failed",
+      "stage": "recovery",
+      "issues": [
+        {
+          "code": "no_usable_items",
+          "source_event_id": 289
+        }
+      ],
+      "notes": []
+    },
+    {
+      "task_id": 151,
+      "kind": "product",
+      "target_key": "https://www.safcodental.com/product/wire-glove-box-holder",
+      "status": "partial",
+      "stage": "extract",
+      "issues": [
+        {
+          "code": "unresolved_selling_unit",
+          "field": "selling_unit",
+          "row": 0,
+          "sku": "6220102",
+          "source_event_id": 327
+        },
+        {
+          "code": "unresolved_pack_size",
+          "field": "pack_size",
+          "row": 0,
+          "sku": "6220102",
+          "source_event_id": 327
+        },
+        {
+          "code": "unresolved_selling_unit",
+          "field": "selling_unit",
+          "row": 1,
+          "sku": "6220104",
+          "source_event_id": 327
+        },
+        {
+          "code": "unresolved_pack_size",
+          "field": "pack_size",
+          "row": 1,
+          "sku": "6220104",
+          "source_event_id": 327
+        },
+        {
+          "code": "unresolved_selling_unit",
+          "field": "selling_unit",
+          "row": 2,
+          "sku": "6220106",
+          "source_event_id": 327
+        },
+        {
+          "code": "unresolved_pack_size",
+          "field": "pack_size",
+          "row": 2,
+          "sku": "6220106",
+          "source_event_id": 327
+        }
+      ],
+      "notes": [
+        {
+          "sku": "6220102",
+          "field": "selling_unit",
+          "reason": "unparsed_source",
+          "source_field": "masterData.name",
+          "source_text": "Wire glove box holder, double 11\"W x 10.5\"H x 4\"D"
+        },
+        {
+          "sku": "6220102",
+          "field": "selling_unit",
+          "reason": "unparsed_source",
+          "source_field": "masterData.description",
+          "source_text": "Double (holds 2 boxes)"
+        },
+        {
+          "sku": "6220102",
+          "field": "pack_size",
+          "reason": "unparsed_source",
+          "source_field": "masterData.name",
+          "source_text": "Wire glove box holder, double 11\"W x 10.5\"H x 4\"D"
+        },
+        {
+          "sku": "6220102",
+          "field": "pack_size",
+          "reason": "unparsed_source",
+          "source_field": "masterData.description",
+          "source_text": "Double (holds 2 boxes)"
+        },
+        {
+          "sku": "6220104",
+          "field": "selling_unit",
+          "reason": "unparsed_source",
+          "source_field": "masterData.name",
+          "source_text": "Wire glove box holder, triple 11\"W x 14\"H x 4\"D"
+        },
+        {
+          "sku": "6220104",
+          "field": "selling_unit",
+          "reason": "unparsed_source",
+          "source_field": "masterData.description",
+          "source_text": "Triple (holds 3 boxes)"
+        },
+        {
+          "sku": "6220104",
+          "field": "pack_size",
+          "reason": "unparsed_source",
+          "source_field": "masterData.name",
+          "source_text": "Wire glove box holder, triple 11\"W x 14\"H x 4\"D"
+        },
+        {
+          "sku": "6220104",
+          "field": "pack_size",
+          "reason": "unparsed_source",
+          "source_field": "masterData.description",
+          "source_text": "Triple (holds 3 boxes)"
+        },
+        {
+          "sku": "6220106",
+          "field": "selling_unit",
+          "reason": "unparsed_source",
+          "source_field": "masterData.name",
+          "source_text": "Wire glove box holder, quad 11\"W x 22\"H x 4\"D"
+        },
+        {
+          "sku": "6220106",
+          "field": "selling_unit",
+          "reason": "unparsed_source",
+          "source_field": "masterData.description",
+          "source_text": "Quad (holds 4 boxes)"
+        },
+        {
+          "sku": "6220106",
+          "field": "pack_size",
+          "reason": "unparsed_source",
+          "source_field": "masterData.name",
+          "source_text": "Wire glove box holder, quad 11\"W x 22\"H x 4\"D"
+        },
+        {
+          "sku": "6220106",
+          "field": "pack_size",
+          "reason": "unparsed_source",
+          "source_field": "masterData.description",
+          "source_text": "Quad (holds 4 boxes)"
+        }
+      ]
+    },
+    {
+      "task_id": 163,
+      "kind": "product",
+      "target_key": "https://www.safcodental.com/product/polymed-reg",
+      "status": "failed",
+      "stage": "recovery",
+      "issues": [
+        {
+          "code": "no_usable_items",
+          "source_event_id": 351
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "remaining_product_urls": [],
+  "remaining_discovery_tasks": [],
+  "recovery": {
+    "mode": "hosted",
+    "reason": null,
+    "budget": {
+      "completed_model_turns": 11,
+      "consumed_cases": 3,
+      "input_tokens": 42058,
+      "output_tokens": 5253,
+      "reserved_cases": 3,
+      "reserved_model_turns": 11
+    },
+    "outcomes": {
+      "budget_exhausted": 12,
+      "unresolved": 2
+    },
+    "cases": [
+      {
+        "task_id": 19,
+        "outcome": "budget_exhausted",
+        "reason": "model_input_limit",
+        "attempted": true,
+        "task_outcome": "partial"
+      },
+      {
+        "task_id": 23,
+        "outcome": "unresolved",
+        "reason": "agent_unresolved",
+        "attempted": true,
+        "task_outcome": "partial"
+      },
+      {
+        "task_id": 29,
+        "outcome": "unresolved",
+        "reason": "agent_unresolved",
+        "attempted": true,
+        "task_outcome": "partial"
+      },
+      {
+        "task_id": 52,
+        "outcome": "budget_exhausted",
+        "reason": "case_limit",
+        "attempted": false,
+        "task_outcome": "partial"
+      },
+      {
+        "task_id": 77,
+        "outcome": "budget_exhausted",
+        "reason": "case_limit",
+        "attempted": false,
+        "task_outcome": "partial"
+      },
+      {
+        "task_id": 81,
+        "outcome": "budget_exhausted",
+        "reason": "case_limit",
+        "attempted": false,
+        "task_outcome": "partial"
+      },
+      {
+        "task_id": 97,
+        "outcome": "budget_exhausted",
+        "reason": "case_limit",
+        "attempted": false,
+        "task_outcome": "partial"
+      },
+      {
+        "task_id": 106,
+        "outcome": "budget_exhausted",
+        "reason": "case_limit",
+        "attempted": false,
+        "task_outcome": "partial"
+      },
+      {
+        "task_id": 122,
+        "outcome": "budget_exhausted",
+        "reason": "case_limit",
+        "attempted": false,
+        "task_outcome": "partial"
+      },
+      {
+        "task_id": 126,
+        "outcome": "budget_exhausted",
+        "reason": "case_limit",
+        "attempted": false,
+        "task_outcome": "failed"
+      },
+      {
+        "task_id": 127,
+        "outcome": "budget_exhausted",
+        "reason": "case_limit",
+        "attempted": false,
+        "task_outcome": "failed"
+      },
+      {
+        "task_id": 132,
+        "outcome": "budget_exhausted",
+        "reason": "case_limit",
+        "attempted": false,
+        "task_outcome": "failed"
+      },
+      {
+        "task_id": 151,
+        "outcome": "budget_exhausted",
+        "reason": "case_limit",
+        "attempted": false,
+        "task_outcome": "partial"
+      },
+      {
+        "task_id": 163,
+        "outcome": "budget_exhausted",
+        "reason": "case_limit",
+        "attempted": false,
+        "task_outcome": "failed"
+      }
+    ]
+  },
+  "catalog_export": {
+    "status": "succeeded",
+    "output_path": "/Users/isaachua/Desktop/git_repos/safco_catalog_scraper/runs/2026-10-20-full/catalog.json"
+  }
+}

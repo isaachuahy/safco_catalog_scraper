@@ -1,0 +1,3327 @@
+{
+  "kind": "historical_saved_response_audit",
+  "capture_started_at": "2026-10-20T03:21:11.485289+00:00",
+  "capture_finished_at": "2026-10-20T03:24:52.986686+00:00",
+  "scope": "The two configured Safco categories; saved public category and product responses.",
+  "limitations": [
+    "This receipt preserves the original audit outcomes, not outcomes from the current runner or extractor.",
+    "The four recorded structural failures contain explicitly empty item datasets; later extractor versions report zero decoded rows.",
+    "The source database and response bodies remain local and are not included in this receipt. Per-response hashes identify the retained evidence."
+  ],
+  "summary": {
+    "distinct_product_urls": 148,
+    "http_status_counts": {
+      "200": 148
+    },
+    "recorded_outcomes": {
+      "complete": 129,
+      "partial": 15,
+      "structural_failure": 4
+    },
+    "products_with_accepted_items": 144,
+    "accepted_item_records": 742
+  },
+  "categories": [
+    {
+      "url": "https://www.safcodental.com/catalog/gloves",
+      "reported_product_count": 93,
+      "discovered_product_count": 93,
+      "source_sha256": "b0754c70705cb4ccc81475c05ae36a8a690e514380bc3282ef9401be6b2b6f35"
+    },
+    {
+      "url": "https://www.safcodental.com/catalog/sutures-surgical-products",
+      "reported_product_count": 55,
+      "discovered_product_count": 55,
+      "source_sha256": "45cb01e5c91cb854d0c8c619aa4a3ecbaf595c73e6b96f2e1e6503a9ca20ff42"
+    }
+  ],
+  "products": [
+    {
+      "product_url": "https://www.safcodental.com/product/actcel",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/sutures-surgical-products"
+      ],
+      "captured_at": "2026-10-20T03:24:35.650549+00:00",
+      "http_status": 200,
+      "source_sha256": "13bb4d9f26a64d7ce126cad4b2d786d7d98d3686f649f3044a98b42c6dc34a2e",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 1,
+        "decoded_item_count": 1,
+        "accepted_item_count": 1,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/alasta-pro",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:21:43.120811+00:00",
+      "http_status": 200,
+      "source_sha256": "f816aa52d171d2fd1d6b33fe277faf3c1741ef9328d11e6961b0be615cb10a18",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 5,
+        "decoded_item_count": 5,
+        "accepted_item_count": 5,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/alasta-reg-aloe",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:21:36.865351+00:00",
+      "http_status": 200,
+      "source_sha256": "74e8a2a74bb6dd20377b6e83966412ab51489d4106717a2afc64137ed99f592f",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 4,
+        "decoded_item_count": 4,
+        "accepted_item_count": 4,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/alasta-sup-reg-sup",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:21:17.653199+00:00",
+      "http_status": 200,
+      "source_sha256": "28e2367bc5a74fa250af884e248c3bcb12e5d859a890390877a35cbcd0be3126",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 10,
+        "decoded_item_count": 10,
+        "accepted_item_count": 10,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/alasta-sup-reg-sup-shimmer-pink-nitrile",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:21:33.679604+00:00",
+      "http_status": 200,
+      "source_sha256": "564f1b07de651b5328aa4fb2e7b10f3ed58e6f62ea80380fb4489d0e06111e63",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 4,
+        "decoded_item_count": 4,
+        "accepted_item_count": 4,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/aloepro-trade",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:23:07.488896+00:00",
+      "http_status": 200,
+      "source_sha256": "cfea6af78a09aa85513a275536e662713fe87b124ad662a19dcd7fe95bfcd10d",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 4,
+        "decoded_item_count": 4,
+        "accepted_item_count": 4,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/aqua-source-reg",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:22:17.815393+00:00",
+      "http_status": 200,
+      "source_sha256": "caa754604540d61f67f36fdd5fcb3f14bfba90004aa432f6a331878dfb75ec7c",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 5,
+        "decoded_item_count": 5,
+        "accepted_item_count": 5,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/aquaprene-reg",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:21:38.495020+00:00",
+      "http_status": 200,
+      "source_sha256": "b737a3bf3e4a5ba2357ccca7a04ee034df32f8cee987ca894a123cb91b4124dd",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 5,
+        "decoded_item_count": 5,
+        "accepted_item_count": 5,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/aquasoft",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:21:15.540718+00:00",
+      "http_status": 200,
+      "source_sha256": "7c53bd0b57065477a8c8ca4b19e6f598d49421473be89972d65e1c57f581d969",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 5,
+        "decoded_item_count": 5,
+        "accepted_item_count": 5,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/aurelia-reg-absolute-trade",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:21:39.929372+00:00",
+      "http_status": 200,
+      "source_sha256": "bd1cf36e53ace19da3aec6a9e5718d76683556fc3e47bb0e9d28f02e04b0077e",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 5,
+        "decoded_item_count": 5,
+        "accepted_item_count": 5,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/aurelia-reg-amazing-reg",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:21:14.858505+00:00",
+      "http_status": 200,
+      "source_sha256": "31b6b52908c6d061839d08079cc295c402a316720070833c569388118fa6a272",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 5,
+        "decoded_item_count": 5,
+        "accepted_item_count": 5,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/aurelia-reg-blush-reg",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:21:26.478413+00:00",
+      "http_status": 200,
+      "source_sha256": "cd2a7ae64c4567562588dd304b7a6499e860b48a24c1cc1db2f77b8a6d0b6538",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 4,
+        "decoded_item_count": 4,
+        "accepted_item_count": 4,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/aurelia-reg-bold-reg",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:21:58.311370+00:00",
+      "http_status": 200,
+      "source_sha256": "033ab2d1a6824e54860f55d5020c5fc0201ece6c36edfc0ecc2c639f9b86d00d",
+      "recorded_outcome": "partial",
+      "recorded_extraction": {
+        "expected_item_count": 5,
+        "decoded_item_count": 5,
+        "accepted_item_count": 5,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": [
+          {
+            "row": 1,
+            "sku": "4871422",
+            "code": "invalid_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 1,
+            "sku": "4871422",
+            "code": "unresolved_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 2,
+            "sku": "4871424",
+            "code": "invalid_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 2,
+            "sku": "4871424",
+            "code": "unresolved_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 3,
+            "sku": "4871426",
+            "code": "invalid_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 3,
+            "sku": "4871426",
+            "code": "unresolved_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 4,
+            "sku": "4871428",
+            "code": "unresolved_tiers",
+            "field": "quantity_tiers"
+          }
+        ]
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/aurelia-reg-distinct-reg",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:21:54.130693+00:00",
+      "http_status": 200,
+      "source_sha256": "6c5b05c4e3df4881f7cf5fed9efee02d54c2eba0d486348ff7e5f60db86f1a7d",
+      "recorded_outcome": "partial",
+      "recorded_extraction": {
+        "expected_item_count": 4,
+        "decoded_item_count": 4,
+        "accepted_item_count": 4,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": [
+          {
+            "row": 0,
+            "sku": "4870529",
+            "code": "invalid_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 0,
+            "sku": "4870529",
+            "code": "unresolved_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 1,
+            "sku": "4870534",
+            "code": "invalid_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 1,
+            "sku": "4870534",
+            "code": "unresolved_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 2,
+            "sku": "4870547",
+            "code": "invalid_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 2,
+            "sku": "4870547",
+            "code": "unresolved_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 3,
+            "sku": "4870551",
+            "code": "invalid_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 3,
+            "sku": "4870551",
+            "code": "unresolved_tiers",
+            "field": "quantity_tiers"
+          }
+        ]
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/aurelia-reg-refresh-reg",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:21:41.584567+00:00",
+      "http_status": 200,
+      "source_sha256": "936bfaf308f98c9866858e99b010889d975ce57384eab4f7d00b65f72abfa227",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 5,
+        "decoded_item_count": 5,
+        "accepted_item_count": 5,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/aurelia-reg-sonic-reg-100",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:21:49.643873+00:00",
+      "http_status": 200,
+      "source_sha256": "d129e8e403262b0ea10afab5d5e0fd371e518a5718fb6925fd1e032de4dc5a5c",
+      "recorded_outcome": "partial",
+      "recorded_extraction": {
+        "expected_item_count": 5,
+        "decoded_item_count": 5,
+        "accepted_item_count": 5,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": [
+          {
+            "row": 0,
+            "sku": "4871320",
+            "code": "invalid_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 0,
+            "sku": "4871320",
+            "code": "unresolved_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 1,
+            "sku": "4871323",
+            "code": "invalid_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 1,
+            "sku": "4871323",
+            "code": "unresolved_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 2,
+            "sku": "4871326",
+            "code": "invalid_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 2,
+            "sku": "4871326",
+            "code": "unresolved_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 3,
+            "sku": "4871329",
+            "code": "invalid_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 3,
+            "sku": "4871329",
+            "code": "unresolved_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 4,
+            "sku": "4871331",
+            "code": "invalid_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 4,
+            "sku": "4871331",
+            "code": "unresolved_tiers",
+            "field": "quantity_tiers"
+          }
+        ]
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/aurelia-reg-vibrant-trade",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:21:24.286973+00:00",
+      "http_status": 200,
+      "source_sha256": "286f088d9ed799beeb09b0d06cdec8aa4dde4262499299541b4b128b41e292e5",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 4,
+        "decoded_item_count": 4,
+        "accepted_item_count": 4,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/aurelia-sup-reg-sup-perform-sup-trade-sup",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:21:46.466742+00:00",
+      "http_status": 200,
+      "source_sha256": "d3516a5d9989b35f25e47db5ce07dea3279f6dd8894d46c598769660736f4717",
+      "recorded_outcome": "partial",
+      "recorded_extraction": {
+        "expected_item_count": 5,
+        "decoded_item_count": 5,
+        "accepted_item_count": 5,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": [
+          {
+            "row": 0,
+            "sku": "4870905",
+            "code": "invalid_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 0,
+            "sku": "4870905",
+            "code": "unresolved_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 2,
+            "sku": "4870919",
+            "code": "invalid_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 2,
+            "sku": "4870919",
+            "code": "unresolved_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 3,
+            "sku": "4870926",
+            "code": "unresolved_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 4,
+            "sku": "4870931",
+            "code": "unresolved_tiers",
+            "field": "quantity_tiers"
+          }
+        ]
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/aurelia-sup-reg-sup-prot-eacute-g-eacute-sup-reg-sup",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:21:56.370638+00:00",
+      "http_status": 200,
+      "source_sha256": "9f5ddcb99f7d02900f137dd10cf4176932aa2ac2daff02cf10591ebbb6d2c406",
+      "recorded_outcome": "partial",
+      "recorded_extraction": {
+        "expected_item_count": 5,
+        "decoded_item_count": 5,
+        "accepted_item_count": 5,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": [
+          {
+            "row": 0,
+            "sku": "4870431",
+            "code": "invalid_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 0,
+            "sku": "4870431",
+            "code": "unresolved_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 1,
+            "sku": "4870439",
+            "code": "invalid_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 1,
+            "sku": "4870439",
+            "code": "unresolved_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 2,
+            "sku": "4870447",
+            "code": "invalid_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 2,
+            "sku": "4870447",
+            "code": "unresolved_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 3,
+            "sku": "4870458",
+            "code": "invalid_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 3,
+            "sku": "4870458",
+            "code": "unresolved_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 4,
+            "sku": "4870460",
+            "code": "unresolved_tiers",
+            "field": "quantity_tiers"
+          }
+        ]
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/aurelia-sup-reg-sup-sonic-sup-reg-sup",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:21:30.357154+00:00",
+      "http_status": 200,
+      "source_sha256": "a1f4279b1de2afd6cb652d5d7de85c07cad8b58e48babed161c9338938dbdc82",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 5,
+        "decoded_item_count": 5,
+        "accepted_item_count": 5,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/aurelia-sup-reg-sup-transform-sup-reg-sup",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:21:32.065446+00:00",
+      "http_status": 200,
+      "source_sha256": "ddacb96a0ab7b7d3c647dc0f5b91eab22620b220d71711d60c8bf2865321627a",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 4,
+        "decoded_item_count": 4,
+        "accepted_item_count": 4,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/barricaid-reg",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/sutures-surgical-products"
+      ],
+      "captured_at": "2026-10-20T03:24:25.976941+00:00",
+      "http_status": 200,
+      "source_sha256": "9f96de8b19a391fea4b325eb4afbafd45eda24c5f73f05d30a70b209984c0c42",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 1,
+        "decoded_item_count": 1,
+        "accepted_item_count": 1,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/beesure-reg-glacier-nitrile",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:22:26.125787+00:00",
+      "http_status": 200,
+      "source_sha256": "7c04ef01f6c39ec6e325e6e2bcadf978eefd3b21360ae0673693490f5a8d1566",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 4,
+        "decoded_item_count": 4,
+        "accepted_item_count": 4,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/beesure-reg-latex",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:22:51.281471+00:00",
+      "http_status": 200,
+      "source_sha256": "ea79c924b9fa32357470e55b0096864dbd9bb99e236441ca3fe4cda17c6e07fd",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 5,
+        "decoded_item_count": 5,
+        "accepted_item_count": 5,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/beesure-reg-neogrene-trade",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:22:01.626860+00:00",
+      "http_status": 200,
+      "source_sha256": "46e477c5ad0af0b99b5d963d699696b6e1dddf10c1098f7910e3c94ae1827c88",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 4,
+        "decoded_item_count": 4,
+        "accepted_item_count": 4,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/beesure-reg-slim-trade-nitrile",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:22:59.808840+00:00",
+      "http_status": 200,
+      "source_sha256": "3fddbf1d6bfbc43c378d13c360edd91e36fde4e453757477a89aa8e107e2a727",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 4,
+        "decoded_item_count": 4,
+        "accepted_item_count": 4,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/beesure-reg-superslim-trade-nitrile",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:21:16.964549+00:00",
+      "http_status": 200,
+      "source_sha256": "f445e0e926f2a68f32293df3c22e1876c01572b6d1d2272e10e4bfabf4bb12d4",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 4,
+        "decoded_item_count": 4,
+        "accepted_item_count": 4,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/beesure-sup-reg-sup-nitrile",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:21:27.174507+00:00",
+      "http_status": 200,
+      "source_sha256": "0362f169954ec27244cb095029c23a578736a1709baeb725755cb65063637333",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 5,
+        "decoded_item_count": 5,
+        "accepted_item_count": 5,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/beesure-ultraslim-nitrile",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:21:13.210308+00:00",
+      "http_status": 200,
+      "source_sha256": "108e7b72de345e9cbf225feb05447f50be2b74eedb2649c669630304da3ae0ae",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 4,
+        "decoded_item_count": 4,
+        "accepted_item_count": 4,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/bio-nitrile-sup-reg-sup",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:22:29.085283+00:00",
+      "http_status": 200,
+      "source_sha256": "6c141b101347836f9b1d2e8622a8d7c87570b65ba0ae6e64876125f08295a135",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 5,
+        "decoded_item_count": 5,
+        "accepted_item_count": 5,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/black-maxx-sup-reg-sup",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:21:21.061657+00:00",
+      "http_status": 200,
+      "source_sha256": "dd6040a1390f54122846f9a4b82d0ec94f2c18e3fd3ae085e31a98c48e226911",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 5,
+        "decoded_item_count": 5,
+        "accepted_item_count": 5,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/blossom-reg",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:23:15.871085+00:00",
+      "http_status": 200,
+      "source_sha256": "ea6afdf0809ae891886f6c60d7a39590a16765e544b885ed3ba9a4a6629e64f1",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 1,
+        "decoded_item_count": 1,
+        "accepted_item_count": 1,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/carbon-reg-air",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:21:35.417428+00:00",
+      "http_status": 200,
+      "source_sha256": "23e59787d72687cbc00b8e473c2c84060645ae0c9a8b65236a6266c9c089dab4",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 5,
+        "decoded_item_count": 5,
+        "accepted_item_count": 5,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/carbon-reg-nitrile",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:22:19.956158+00:00",
+      "http_status": 200,
+      "source_sha256": "c935afc89ba9cca3be3730c53df19f6aa2694847f4bc1179d4c805d5e619dfca",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 5,
+        "decoded_item_count": 5,
+        "accepted_item_count": 5,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/coe-pak-trade",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/sutures-surgical-products"
+      ],
+      "captured_at": "2026-10-20T03:24:23.603250+00:00",
+      "http_status": 200,
+      "source_sha256": "764ac4af6ea004c345441c1b79f8f3d6e923a3ac1709aec014a273901b8e8472",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 2,
+        "decoded_item_count": 2,
+        "accepted_item_count": 2,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/coe-pak-trade-automix-nds",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/sutures-surgical-products"
+      ],
+      "captured_at": "2026-10-20T03:24:43.438084+00:00",
+      "http_status": 200,
+      "source_sha256": "52b2b4c72b3c8fd9f1862d57e4b41cc9df9d0264720e0b5345ac23afd25f358a",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 2,
+        "decoded_item_count": 2,
+        "accepted_item_count": 2,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/coldstar-disposable-instant-non-insulated-cold-pack",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/sutures-surgical-products"
+      ],
+      "captured_at": "2026-10-20T03:24:13.541956+00:00",
+      "http_status": 200,
+      "source_sha256": "99dd2214868d6483092d6078e54d01b2bfe15feb25026910e57cc98f54f91feb",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 4,
+        "decoded_item_count": 4,
+        "accepted_item_count": 4,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/collashield-trade-collagen-membrane",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/sutures-surgical-products"
+      ],
+      "captured_at": "2026-10-20T03:23:40.663628+00:00",
+      "http_status": 200,
+      "source_sha256": "fef34bb053eef5515b07b4435bc64fe4acabea72215ba07e0265e4168449b7f8",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 3,
+        "decoded_item_count": 3,
+        "accepted_item_count": 3,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/compac-nitrile",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:21:51.135861+00:00",
+      "http_status": 200,
+      "source_sha256": "cd3fd130ee91f5b6e1c007d75e3842f85b27dbdefe80da56f936ba7c4cceda30",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 5,
+        "decoded_item_count": 5,
+        "accepted_item_count": 5,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/contour-plus-trade",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:22:36.949313+00:00",
+      "http_status": 200,
+      "source_sha256": "b6164661a9007ddec15733eeacfd77abb2f14ca42c5cbc2319b50a78308a0e6e",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 4,
+        "decoded_item_count": 4,
+        "accepted_item_count": 4,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/contour-reg",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:22:47.826363+00:00",
+      "http_status": 200,
+      "source_sha256": "0439886f438f68c4a149df1d67b0d45b0a8f2965436bb6a98c0167caba1817ac",
+      "recorded_outcome": "structural_failure",
+      "recorded_extraction": {
+        "code": "invalid_masterData",
+        "message": "window.masterData must decode to an object"
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/crave-trade",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:22:30.778408+00:00",
+      "http_status": 200,
+      "source_sha256": "dc5536e36f1eb46c4d5f7b3032657a02c9a63f2beee379fc506c22dec6c3ae9d",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 4,
+        "decoded_item_count": 4,
+        "accepted_item_count": 4,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/curve-reg-fitted",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:22:38.476845+00:00",
+      "http_status": 200,
+      "source_sha256": "b09d1452a285628a1dc36cfd1875186698ce60e3a913522f27e62c968825850f",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 5,
+        "decoded_item_count": 5,
+        "accepted_item_count": 5,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/cyntek-reg",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:22:27.669108+00:00",
+      "http_status": 200,
+      "source_sha256": "b2963145da1a18ac7e5d505d25a747f65510a6abccbc119475439f7c61cae05b",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 5,
+        "decoded_item_count": 5,
+        "accepted_item_count": 5,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/dentalprox-veragraft-trade-dental-powder",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/sutures-surgical-products"
+      ],
+      "captured_at": "2026-10-20T03:24:02.063536+00:00",
+      "http_status": 200,
+      "source_sha256": "72653cb7758b5ff84a8cd0b6764763beb60c0eb39a5b52a097168a20420123b0",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 13,
+        "decoded_item_count": 13,
+        "accepted_item_count": 13,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/dermassist-sup-reg-sup-latex-surgical-gloves",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:22:53.456019+00:00",
+      "http_status": 200,
+      "source_sha256": "0d52b0efc2f84f5462d73a0098c7d691e2c0db831e61f5ce958baeff14a9a095",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 8,
+        "decoded_item_count": 8,
+        "accepted_item_count": 8,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/disposable-scalpels",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/sutures-surgical-products"
+      ],
+      "captured_at": "2026-10-20T03:24:29.274097+00:00",
+      "http_status": 200,
+      "source_sha256": "dbae41a043966fb6fbf31fd7de64e42956f2a2deb2e8d0fbdc15132be9ca8f9e",
+      "recorded_outcome": "partial",
+      "recorded_extraction": {
+        "expected_item_count": 4,
+        "decoded_item_count": 4,
+        "accepted_item_count": 4,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": [
+          {
+            "row": 0,
+            "sku": "3440127",
+            "code": "invalid_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 0,
+            "sku": "3440127",
+            "code": "unresolved_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 1,
+            "sku": "3440133",
+            "code": "invalid_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 1,
+            "sku": "3440133",
+            "code": "unresolved_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 2,
+            "sku": "3440145",
+            "code": "invalid_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 2,
+            "sku": "3440145",
+            "code": "unresolved_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 3,
+            "sku": "3440156",
+            "code": "invalid_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 3,
+            "sku": "3440156",
+            "code": "unresolved_tiers",
+            "field": "quantity_tiers"
+          }
+        ]
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/disposable-scalpels-bard-parker-bd",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/sutures-surgical-products"
+      ],
+      "captured_at": "2026-10-20T03:24:37.137569+00:00",
+      "http_status": 200,
+      "source_sha256": "c91c93c50380c38924a240f7876bb7882819b6d6138ba85a1d108087425b4af7",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 3,
+        "decoded_item_count": 3,
+        "accepted_item_count": 3,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/disposable-scalpels-integra-miltex",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/sutures-surgical-products"
+      ],
+      "captured_at": "2026-10-20T03:24:32.459742+00:00",
+      "http_status": 200,
+      "source_sha256": "d442de8c98a0b74341f271e7b10361603b855171d5f22eb58984afa9621e5a70",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 4,
+        "decoded_item_count": 4,
+        "accepted_item_count": 4,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/encore-reg-sensi-touch-reg-pf",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:23:02.777189+00:00",
+      "http_status": 200,
+      "source_sha256": "88a956895bdd920bea25c53dfe7537f1aa2a52268371a7e23626d5f6e190f35a",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 6,
+        "decoded_item_count": 6,
+        "accepted_item_count": 6,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/essential-textured",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:22:44.616460+00:00",
+      "http_status": 200,
+      "source_sha256": "ab11aa84b927542dcd3d423566cb1990df9fb89be9285c518fb4902c92bc15bb",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 1,
+        "decoded_item_count": 1,
+        "accepted_item_count": 1,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/ethicon-sutures",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/sutures-surgical-products"
+      ],
+      "captured_at": "2026-10-20T03:23:57.095334+00:00",
+      "http_status": 200,
+      "source_sha256": "50630ad81a42aa1013879b58d09719a0d221233d956d882090457ab5227dddd3",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 26,
+        "decoded_item_count": 26,
+        "accepted_item_count": 26,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/evolve-trade-300",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:22:16.309856+00:00",
+      "http_status": 200,
+      "source_sha256": "19c0fe34a9f0a8946f266c78d2b0396699f3435629c17fd068168f86bb146bf0",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 5,
+        "decoded_item_count": 5,
+        "accepted_item_count": 5,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/feather-sup-reg-nbsp-sup-microsurgical-blades",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/sutures-surgical-products"
+      ],
+      "captured_at": "2026-10-20T03:23:45.953964+00:00",
+      "http_status": 200,
+      "source_sha256": "5206873e26cb234a5d365a27dc20f468371dd4c2edc165a18474575301472088",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 4,
+        "decoded_item_count": 4,
+        "accepted_item_count": 4,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/flexaprene-green",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:22:58.233347+00:00",
+      "http_status": 200,
+      "source_sha256": "66476a32641bfcf7955d0d0df79ca6ca44e5013830cea4b36ec483e2eaba603e",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 4,
+        "decoded_item_count": 4,
+        "accepted_item_count": 4,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/foundation-trade",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/sutures-surgical-products"
+      ],
+      "captured_at": "2026-10-20T03:23:38.830060+00:00",
+      "http_status": 200,
+      "source_sha256": "8a45426f5911ad22b10d9756e02b83ab9d0b9fef4790474d35aa7bbe6eb928cc",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 3,
+        "decoded_item_count": 3,
+        "accepted_item_count": 3,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/gloveup-sup-reg-sup",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:21:25.821077+00:00",
+      "http_status": 200,
+      "source_sha256": "2b099e382f4de9421f7fe7b848b5b68572128bb78202cfb98b6d7899929583ba",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 5,
+        "decoded_item_count": 5,
+        "accepted_item_count": 5,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/guidor-reg-e-em-asy-graft-reg-em-classic",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/sutures-surgical-products"
+      ],
+      "captured_at": "2026-10-20T03:24:11.974474+00:00",
+      "http_status": 200,
+      "source_sha256": "363939878230f84a4643f4fbb34b3c337efd2b9ddda8c18dca33a4b2d56c03c9",
+      "recorded_outcome": "partial",
+      "recorded_extraction": {
+        "expected_item_count": 3,
+        "decoded_item_count": 3,
+        "accepted_item_count": 3,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": [
+          {
+            "row": 0,
+            "sku": "3996802",
+            "code": "invalid_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 0,
+            "sku": "3996802",
+            "code": "unresolved_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 1,
+            "sku": "3996804",
+            "code": "invalid_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 1,
+            "sku": "3996804",
+            "code": "unresolved_tiers",
+            "field": "quantity_tiers"
+          }
+        ]
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/halo-trade",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:23:28.821517+00:00",
+      "http_status": 200,
+      "source_sha256": "6a72b4170c2e3df18af69ce5a45d95bb318deee326af86f7d32d731f6efaafa6",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 1,
+        "decoded_item_count": 1,
+        "accepted_item_count": 1,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/halyard-black-nitrile",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:21:52.599554+00:00",
+      "http_status": 200,
+      "source_sha256": "be4d16bee50c9b1cffa517161374eb2a903c05e20028b96dea5b16ed7202da0a",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 5,
+        "decoded_item_count": 5,
+        "accepted_item_count": 5,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/healiaid-reg-strong-nbsp-strong-collagen",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/sutures-surgical-products"
+      ],
+      "captured_at": "2026-10-20T03:23:57.874467+00:00",
+      "http_status": 200,
+      "source_sha256": "87bc0b604bd44d6b5dde8b68e802d63f45849bc21f2231005d950f6cab100457",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 2,
+        "decoded_item_count": 2,
+        "accepted_item_count": 2,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/helimend-trade-and-helimend-trade-advanced",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/sutures-surgical-products"
+      ],
+      "captured_at": "2026-10-20T03:24:49.759435+00:00",
+      "http_status": 200,
+      "source_sha256": "062a67e8c192ef3cbb81758228a0029778e96a01381de4769cb320586439a918",
+      "recorded_outcome": "structural_failure",
+      "recorded_extraction": {
+        "code": "invalid_masterData",
+        "message": "window.masterData must decode to an object"
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/heliplug-reg",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/sutures-surgical-products"
+      ],
+      "captured_at": "2026-10-20T03:23:53.693544+00:00",
+      "http_status": 200,
+      "source_sha256": "4a18e268385d0cbb5b3db02a646a21f29a666f70eb4878c05386c320f9da8b5e",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 1,
+        "decoded_item_count": 1,
+        "accepted_item_count": 1,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/helitape-reg",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/sutures-surgical-products"
+      ],
+      "captured_at": "2026-10-20T03:24:24.335942+00:00",
+      "http_status": 200,
+      "source_sha256": "d6e676fc3232ec7ceb2f22f472e0f922d4941e2f5fb746661a8258483ee8c522",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 1,
+        "decoded_item_count": 1,
+        "accepted_item_count": 1,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/hemostat-sup-trade-sup",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/sutures-surgical-products"
+      ],
+      "captured_at": "2026-10-20T03:23:42.852127+00:00",
+      "http_status": 200,
+      "source_sha256": "498270f463af1030af2f4b6d3fa8f0ef4f3b2080466b8f3824cf6731ee8cf8d9",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 1,
+        "decoded_item_count": 1,
+        "accepted_item_count": 1,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/hu-friedy-nitrile-utility-gloves",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:23:11.969866+00:00",
+      "http_status": 200,
+      "source_sha256": "d37733397689e966f6f8150282d3fbf5ebf2e5f13c58e3a8ccb4382817c6d8fd",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 4,
+        "decoded_item_count": 4,
+        "accepted_item_count": 4,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/inspire-trade",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:22:23.007092+00:00",
+      "http_status": 200,
+      "source_sha256": "048f6a4f7fb1ed4b5a5853cdcf129be65484a008ae177fafcc04dfe89be763f2",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 5,
+        "decoded_item_count": 5,
+        "accepted_item_count": 5,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/instant-cold-pack",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/sutures-surgical-products"
+      ],
+      "captured_at": "2026-10-20T03:24:18.901387+00:00",
+      "http_status": 200,
+      "source_sha256": "d37874df1e4559a4806c0467afbb024fc8c86d3ebe62891016575e02fd2504ae",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 2,
+        "decoded_item_count": 2,
+        "accepted_item_count": 2,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/integra-sup-reg-sup-miltex-sup-reg-sup-helicote-sup-reg-sup",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/sutures-surgical-products"
+      ],
+      "captured_at": "2026-10-20T03:24:44.860118+00:00",
+      "http_status": 200,
+      "source_sha256": "97503bce2a602341a018506c605f4f04bf743c9e762de7223379e287034195dd",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 1,
+        "decoded_item_count": 1,
+        "accepted_item_count": 1,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/iv-administration-sets",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/sutures-surgical-products"
+      ],
+      "captured_at": "2026-10-20T03:24:27.469260+00:00",
+      "http_status": 200,
+      "source_sha256": "f67e77091b86f4a734da7d84a1dd026e1d0669629cfdf5013670c92028c24ed8",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 3,
+        "decoded_item_count": 3,
+        "accepted_item_count": 3,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/lactated-ringer-s",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/sutures-surgical-products"
+      ],
+      "captured_at": "2026-10-20T03:24:34.024182+00:00",
+      "http_status": 200,
+      "source_sha256": "1d0eb403b86c937dea0c077c1fd3bff6354b2b706f1687a34375614fd833b542",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 2,
+        "decoded_item_count": 2,
+        "accepted_item_count": 2,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/lavender-nitrile",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:21:11.485289+00:00",
+      "http_status": 200,
+      "source_sha256": "83a5d93b31a8b17b35ee9b48d9b4e9c8382680737bedbffeadd1e092fa5754cc",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 5,
+        "decoded_item_count": 5,
+        "accepted_item_count": 5,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/look-trade-sutures",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/sutures-surgical-products"
+      ],
+      "captured_at": "2026-10-20T03:24:00.330988+00:00",
+      "http_status": 200,
+      "source_sha256": "fd09d807709f55b77294e223a7bcd743b570df53e8a4cbcb7ee5237110c271f7",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 43,
+        "decoded_item_count": 43,
+        "accepted_item_count": 43,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/luxe-trade",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:22:39.973447+00:00",
+      "http_status": 200,
+      "source_sha256": "fb9d8f23bd31ef430cc5933aa4dd34c1d349779279a4baba661406ddb504e279",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 5,
+        "decoded_item_count": 5,
+        "accepted_item_count": 5,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/micro-touch-reg-nitrafree-trade-blue",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:23:30.442396+00:00",
+      "http_status": 200,
+      "source_sha256": "027ae1f7de5d01488aabdf36bc47ac8f312eb4604b2f0a3b95d0c4b3eb3ea868",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 1,
+        "decoded_item_count": 1,
+        "accepted_item_count": 1,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/micro-touch-reg-nitrile",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:23:25.503192+00:00",
+      "http_status": 200,
+      "source_sha256": "10864f9987c287104c94a923d526e67ed5594ecab23f5e01635aa675799db4f3",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 1,
+        "decoded_item_count": 1,
+        "accepted_item_count": 1,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/micro-touch-sup-reg-sup-affinity-sup-reg-sup",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:23:04.330693+00:00",
+      "http_status": 200,
+      "source_sha256": "d0cbe77146fcbdcae0ad38820f697eca85a77a53510fb361a1676d88605e95d5",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 5,
+        "decoded_item_count": 5,
+        "accepted_item_count": 5,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/microflex-reg-92-134",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:23:17.483730+00:00",
+      "http_status": 200,
+      "source_sha256": "863e99e25f310f11e71411bd56dde03f74d54cacd04bfda58ddc2d3b23bb6d64",
+      "recorded_outcome": "partial",
+      "recorded_extraction": {
+        "expected_item_count": 5,
+        "decoded_item_count": 5,
+        "accepted_item_count": 5,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": [
+          {
+            "row": 0,
+            "sku": "3891043",
+            "code": "invalid_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 0,
+            "sku": "3891043",
+            "code": "unresolved_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 1,
+            "sku": "3891046",
+            "code": "invalid_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 1,
+            "sku": "3891046",
+            "code": "unresolved_tiers",
+            "field": "quantity_tiers"
+          }
+        ]
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/microflex-reg-diamond-grip-plus-trade",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:22:35.370309+00:00",
+      "http_status": 200,
+      "source_sha256": "69b8f7cc90333472b81176a277ffc15f6622573c27c3d0761bcd258b4b5d71aa",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 5,
+        "decoded_item_count": 5,
+        "accepted_item_count": 5,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/microflex-reg-midknight-reg",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:23:13.439598+00:00",
+      "http_status": 200,
+      "source_sha256": "3ca24d01b54f53844e564f9ed9378b7dc8933e5f8013a66eb5bac6b5987a4977",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 1,
+        "decoded_item_count": 1,
+        "accepted_item_count": 1,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/microflex-reg-midknight-trade-touch",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:22:43.035254+00:00",
+      "http_status": 200,
+      "source_sha256": "4e8bc965cd50b6983f68aadcf1f77301c19eae2310675bff9209e07bbdaa4601",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 5,
+        "decoded_item_count": 5,
+        "accepted_item_count": 5,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/microflex-reg-tq-601-soft-white-nitrile",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:23:22.158986+00:00",
+      "http_status": 200,
+      "source_sha256": "d9c0e5b4494a9aa044d0d831edf8550f246b6858e1dea2e8db5c1d8a3cf7eb07",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 1,
+        "decoded_item_count": 1,
+        "accepted_item_count": 1,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/microflex-reg-xceed-reg",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:21:22.623458+00:00",
+      "http_status": 200,
+      "source_sha256": "6aa8d1b236a16608c51bfad5851d0c859b3db9a990b273c749738492a736e895",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 5,
+        "decoded_item_count": 5,
+        "accepted_item_count": 5,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/microflex-sup-reg-sup-neogard-sup-reg-sup",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:21:28.920137+00:00",
+      "http_status": 200,
+      "source_sha256": "274777baa40af257f3dc571d8ddd338644ff0c26bd8af298f0f704d3e6b33b01",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 5,
+        "decoded_item_count": 5,
+        "accepted_item_count": 5,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/microflex-sup-reg-sup-neopro-sup-reg-sup",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:23:10.477246+00:00",
+      "http_status": 200,
+      "source_sha256": "b4e37bfd3318a2c240adf7cb23e556060b6ed46d9c7146d692b5c33d8d7179d5",
+      "recorded_outcome": "partial",
+      "recorded_extraction": {
+        "expected_item_count": 5,
+        "decoded_item_count": 5,
+        "accepted_item_count": 5,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": [
+          {
+            "row": 1,
+            "sku": "4750620",
+            "code": "invalid_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 1,
+            "sku": "4750620",
+            "code": "unresolved_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 4,
+            "sku": "4750657",
+            "code": "invalid_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 4,
+            "sku": "4750657",
+            "code": "unresolved_tiers",
+            "field": "quantity_tiers"
+          }
+        ]
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/microflex-sup-reg-sup-neosoft-trade",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:23:19.215161+00:00",
+      "http_status": 200,
+      "source_sha256": "4ee972a72caf0237e1d2b050f7bd07a43742056e117ee609b40ee1dd0114ff92",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 1,
+        "decoded_item_count": 1,
+        "accepted_item_count": 1,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/microflex-sup-reg-sup-ultraform-sup-trade-sup",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:21:19.565033+00:00",
+      "http_status": 200,
+      "source_sha256": "4e45d464252727842ef2b70d0090d9bb499bf98c62a43dfa3448e3d804adcdb7",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 8,
+        "decoded_item_count": 8,
+        "accepted_item_count": 8,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/myco-medical-glassvan-reg-microsurgical-blades-carbon-steel",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/sutures-surgical-products"
+      ],
+      "captured_at": "2026-10-20T03:24:46.572804+00:00",
+      "http_status": 200,
+      "source_sha256": "77e16606120913231db1f3a12b09a2c0b4d3be6081da9bd72b87452b0199ffda",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 2,
+        "decoded_item_count": 2,
+        "accepted_item_count": 2,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/myco-medical-nbsp-glassvan-reg-scalpel-blades",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/sutures-surgical-products"
+      ],
+      "captured_at": "2026-10-20T03:24:15.125261+00:00",
+      "http_status": 200,
+      "source_sha256": "19a949d75e412f0eaefc50792b5331e14b69a467dc2dd516ffbef4d9a545a214",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 9,
+        "decoded_item_count": 9,
+        "accepted_item_count": 9,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/myco-medical-reli-reg-pro-sutures",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/sutures-surgical-products"
+      ],
+      "captured_at": "2026-10-20T03:24:17.358818+00:00",
+      "http_status": 200,
+      "source_sha256": "3f66ffd7d5975c57b942e26424b82edf3c531cac82ce2287a61014c823f3dccc",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 36,
+        "decoded_item_count": 36,
+        "accepted_item_count": 36,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/myco-medical-technocut-reg-disposable-scalpels",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/sutures-surgical-products"
+      ],
+      "captured_at": "2026-10-20T03:24:30.935630+00:00",
+      "http_status": 200,
+      "source_sha256": "1c8c22b453fd886d3ac93ac04e11b468290287db1d3d57fc1ead929e99dabd0a",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 5,
+        "decoded_item_count": 5,
+        "accepted_item_count": 5,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/nitriderm-reg-ultra-white",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:23:23.792149+00:00",
+      "http_status": 200,
+      "source_sha256": "65512f0e1817439b87823ad7c1e272bbc2038d0cc8f32632bc4514b243955230",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 1,
+        "decoded_item_count": 1,
+        "accepted_item_count": 1,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/nitriderm-sup-reg-sup-nbsp-nitrile-surgical-gloves",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:22:56.572429+00:00",
+      "http_status": 200,
+      "source_sha256": "52647f09d36af33705f53827ea350cbb53418dcd7f3bb6023fa9bbb21be19faf",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 7,
+        "decoded_item_count": 7,
+        "accepted_item_count": 7,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/nuvo-trade",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:22:41.411282+00:00",
+      "http_status": 200,
+      "source_sha256": "19ce6c4e624cbe09e778ed48eca527762b06a84dcb8d7f77b3ba437d4898fdcd",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 4,
+        "decoded_item_count": 4,
+        "accepted_item_count": 4,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/ocean-pacific-sup-reg-sup-neonatural-sup-trade-sup",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:21:59.984810+00:00",
+      "http_status": 200,
+      "source_sha256": "6fa6dae39dee5e5232756ad0b103e33da4947be95e87ad5473667785837b182c",
+      "recorded_outcome": "partial",
+      "recorded_extraction": {
+        "expected_item_count": 5,
+        "decoded_item_count": 5,
+        "accepted_item_count": 5,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": [
+          {
+            "row": 2,
+            "sku": "3150134",
+            "code": "invalid_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 2,
+            "sku": "3150134",
+            "code": "unresolved_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 3,
+            "sku": "3150136",
+            "code": "invalid_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 3,
+            "sku": "3150136",
+            "code": "unresolved_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 4,
+            "sku": "3150138",
+            "code": "invalid_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 4,
+            "sku": "3150138",
+            "code": "unresolved_tiers",
+            "field": "quantity_tiers"
+          }
+        ]
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/orasoothe-reg-sockit-gel",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/sutures-surgical-products"
+      ],
+      "captured_at": "2026-10-20T03:23:36.721069+00:00",
+      "http_status": 200,
+      "source_sha256": "f011364eb457deeb7757c3bcf295695c2b045dc35a8d06339048cd863cc88999",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 3,
+        "decoded_item_count": 3,
+        "accepted_item_count": 3,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/orca-sup-trade-sup-foam",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/sutures-surgical-products"
+      ],
+      "captured_at": "2026-10-20T03:24:41.858269+00:00",
+      "http_status": 200,
+      "source_sha256": "fd219bc8c12974f229c4915697990bb18d1b49318381a7de9688472ef84ca69b",
+      "recorded_outcome": "partial",
+      "recorded_extraction": {
+        "expected_item_count": 2,
+        "decoded_item_count": 2,
+        "accepted_item_count": 2,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": [
+          {
+            "row": 1,
+            "sku": "5100039",
+            "code": "invalid_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 1,
+            "sku": "5100039",
+            "code": "unresolved_tiers",
+            "field": "quantity_tiers"
+          }
+        ]
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/orca-trade-dry-socket",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/sutures-surgical-products"
+      ],
+      "captured_at": "2026-10-20T03:24:22.203014+00:00",
+      "http_status": 200,
+      "source_sha256": "49363cb558cc2b5100cd91337c9d1294a066d8a84a75d837e85048041261a146",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 1,
+        "decoded_item_count": 1,
+        "accepted_item_count": 1,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/ossif-i-sem-trade",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/sutures-surgical-products"
+      ],
+      "captured_at": "2026-10-20T03:23:35.117000+00:00",
+      "http_status": 200,
+      "source_sha256": "aeff515fc65d7fb94de355b768c42ddcc603781e39aac0740f4daf99e3fa25d0",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 18,
+        "decoded_item_count": 18,
+        "accepted_item_count": 18,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/ossify-sup-reg-sup-cortical-bone-sheet",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/sutures-surgical-products"
+      ],
+      "captured_at": "2026-10-20T03:23:49.013497+00:00",
+      "http_status": 200,
+      "source_sha256": "16ca77cc13a94d8f13a0882512bd96ecce373df1ab3a638a5929bd87ae280365",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 2,
+        "decoded_item_count": 2,
+        "accepted_item_count": 2,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/ossify-sup-reg-sup-dbm-cortical-fiber-bone-graft",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/sutures-surgical-products"
+      ],
+      "captured_at": "2026-10-20T03:23:50.649775+00:00",
+      "http_status": 200,
+      "source_sha256": "5272e29c5e877f64e60e634df014b523e0e07ba08ecaf74f7ba30e5e8a492f22",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 6,
+        "decoded_item_count": 6,
+        "accepted_item_count": 6,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/ossify-sup-reg-sup-min-demin-cortical-cancellous-bone-graft",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/sutures-surgical-products"
+      ],
+      "captured_at": "2026-10-20T03:23:38.171856+00:00",
+      "http_status": 200,
+      "source_sha256": "f5f82c9d3180bcfbd2ac29004939bf8dcd87040e988ebdbcd3698846c2267bf6",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 3,
+        "decoded_item_count": 3,
+        "accepted_item_count": 3,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/periacryl-reg-90",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/sutures-surgical-products"
+      ],
+      "captured_at": "2026-10-20T03:24:07.248211+00:00",
+      "http_status": 200,
+      "source_sha256": "1738daf351c30d61c21bd1287fd16b2843ad14c3f95a0ab95c6d17639cd9810b",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 2,
+        "decoded_item_count": 2,
+        "accepted_item_count": 2,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/perma-sharp-reg-sutures",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/sutures-surgical-products"
+      ],
+      "captured_at": "2026-10-20T03:23:55.439589+00:00",
+      "http_status": 200,
+      "source_sha256": "03b58a8cec9234bc2f5124f185e9f0e78671e516cdbd1474514e620adeff8bac",
+      "recorded_outcome": "partial",
+      "recorded_extraction": {
+        "expected_item_count": 48,
+        "decoded_item_count": 48,
+        "accepted_item_count": 48,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": [
+          {
+            "row": 17,
+            "sku": "3930143",
+            "code": "invalid_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 17,
+            "sku": "3930143",
+            "code": "unresolved_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 23,
+            "sku": "3920605",
+            "code": "invalid_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 23,
+            "sku": "3920605",
+            "code": "unresolved_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 31,
+            "sku": "3930137",
+            "code": "invalid_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 31,
+            "sku": "3930137",
+            "code": "unresolved_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 42,
+            "sku": "3930136",
+            "code": "invalid_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 42,
+            "sku": "3930136",
+            "code": "unresolved_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 44,
+            "sku": "3930142",
+            "code": "invalid_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 44,
+            "sku": "3930142",
+            "code": "unresolved_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 46,
+            "sku": "3930145",
+            "code": "invalid_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 46,
+            "sku": "3930145",
+            "code": "unresolved_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 47,
+            "sku": "3930141",
+            "code": "invalid_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 47,
+            "sku": "3930141",
+            "code": "unresolved_tiers",
+            "field": "quantity_tiers"
+          }
+        ]
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/polymed-reg",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:23:31.923318+00:00",
+      "http_status": 200,
+      "source_sha256": "b9a945776b3bd69ed30563cab0160cef44de60557e1c09c666ebe439e9d2b649",
+      "recorded_outcome": "structural_failure",
+      "recorded_extraction": {
+        "code": "invalid_masterData",
+        "message": "window.masterData must decode to an object"
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/powerform-black",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:22:54.899638+00:00",
+      "http_status": 200,
+      "source_sha256": "1b3ac246b9418dee3aaf27665d411d236d1402d5c25aecb2f8ff17e58a6990ae",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 5,
+        "decoded_item_count": 5,
+        "accepted_item_count": 5,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/proderm-trade",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:23:20.653036+00:00",
+      "http_status": 200,
+      "source_sha256": "5c965543e78278b59a3292f98257f2ad3ec454c099f8b0db6801d66857a97163",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 1,
+        "decoded_item_count": 1,
+        "accepted_item_count": 1,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/pulse-nitrile",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:22:52.798536+00:00",
+      "http_status": 200,
+      "source_sha256": "a6d58a3c127afc38880a105d34bd96c34f11067afdeff5cca6f40b8027017766",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 5,
+        "decoded_item_count": 5,
+        "accepted_item_count": 5,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/pulse-reg-logic-trade",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:23:08.945840+00:00",
+      "http_status": 200,
+      "source_sha256": "7a4aa95e4da3a7060b1fc06e6b7f0cacf9b1806bfcb4376b1c59cce94b4a9ccb",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 4,
+        "decoded_item_count": 4,
+        "accepted_item_count": 4,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/pulse-trade-latex",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:23:05.737030+00:00",
+      "http_status": 200,
+      "source_sha256": "8aed3ab52d9d1df49b25744f4f24edf180ca6270d316d3bc37c652cb2ac462af",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 5,
+        "decoded_item_count": 5,
+        "accepted_item_count": 5,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/purple-nitrile",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:23:01.258084+00:00",
+      "http_status": 200,
+      "source_sha256": "94054280da3fd57c262a2784cfe25a2b1bd34552ae0aeab64a357c1e27383fde",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 4,
+        "decoded_item_count": 4,
+        "accepted_item_count": 4,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/quantum-blue",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:22:13.256643+00:00",
+      "http_status": 200,
+      "source_sha256": "9d2d7722dbc95a30edab315c31cbc4820a4fd2c4497f9c3ec2a0063fe44f1afc",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 4,
+        "decoded_item_count": 4,
+        "accepted_item_count": 4,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/r-t-r-membrane",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/sutures-surgical-products"
+      ],
+      "captured_at": "2026-10-20T03:24:51.358696+00:00",
+      "http_status": 200,
+      "source_sha256": "03a1660dc3a21843e9a32549bafd4834534104c388d78b0211b9a8978f715885",
+      "recorded_outcome": "structural_failure",
+      "recorded_extraction": {
+        "code": "invalid_masterData",
+        "message": "window.masterData must decode to an object"
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/r-t-r-syringe",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/sutures-surgical-products"
+      ],
+      "captured_at": "2026-10-20T03:24:08.719365+00:00",
+      "http_status": 200,
+      "source_sha256": "010faf62d4d65307fd3978a9fdc2196a521a2e5c4a3271edb3e735554d70d5bd",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 2,
+        "decoded_item_count": 2,
+        "accepted_item_count": 2,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/regenafill-sup-trade-sup-bone-graft-plug",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/sutures-surgical-products"
+      ],
+      "captured_at": "2026-10-20T03:23:42.096380+00:00",
+      "http_status": 200,
+      "source_sha256": "15bda59367435c40905402a576c13cb428fdcf9d53929d191989d4c79f5e71af",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 2,
+        "decoded_item_count": 2,
+        "accepted_item_count": 2,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/revo200-reg",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:22:46.191757+00:00",
+      "http_status": 200,
+      "source_sha256": "b5d299bfc934931b58ed3405370bb52aa91c625eaefc060cb2f673e0451a6ec6",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 1,
+        "decoded_item_count": 1,
+        "accepted_item_count": 1,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/revosoft-reg-nitrile-gloves",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:21:48.098403+00:00",
+      "http_status": 200,
+      "source_sha256": "b706ce43dbb14184544e192511f38ddb64ab72475efd9aa1a7aabc11e9b745a2",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 4,
+        "decoded_item_count": 4,
+        "accepted_item_count": 4,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/safco-durasoft-trade-latex-gloves",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:22:04.775830+00:00",
+      "http_status": 200,
+      "source_sha256": "b1a5ea9e805d8d68a8ba95be04952eb60e87e01aabd87fc4077a2c5381466865",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 5,
+        "decoded_item_count": 5,
+        "accepted_item_count": 5,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/safco-ez-green-chloroprene",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:22:14.785306+00:00",
+      "http_status": 200,
+      "source_sha256": "6de0b3708632f9bf5946e05f2972f8a1791e33da58fb700429e61811749735e6",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 4,
+        "decoded_item_count": 4,
+        "accepted_item_count": 4,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/safco-nitrilex-black",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:22:07.198583+00:00",
+      "http_status": 200,
+      "source_sha256": "356f834071ce0384c65a330f15a9593d02d76df29cb18f0f3773042ee92add47",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 5,
+        "decoded_item_count": 5,
+        "accepted_item_count": 5,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/safco-nitrilex-prevail-trade-nitrile-gloves",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:22:10.348851+00:00",
+      "http_status": 200,
+      "source_sha256": "ba433b9ba72eda56205f2ecd3511af24cd05ea42bda0567be1526848eedc43aa",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 5,
+        "decoded_item_count": 5,
+        "accepted_item_count": 5,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/safco-nitrilex-reg-nitrile-gloves",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:22:11.776259+00:00",
+      "http_status": 200,
+      "source_sha256": "dad10c06306720c2d3eaaf1efcc52d25d797c4ecb0d8e660c025b00ab7a411f6",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 5,
+        "decoded_item_count": 5,
+        "accepted_item_count": 5,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/safco-nitrilex-reg-ultrasoft-nitrile-gloves",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:22:05.473145+00:00",
+      "http_status": 200,
+      "source_sha256": "4a91c07db79ce433c0c16ff631e8da13583671f69ebf854ce3d8a42499631dc5",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 5,
+        "decoded_item_count": 5,
+        "accepted_item_count": 5,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/safco-nitrilex-soothe",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:22:08.843944+00:00",
+      "http_status": 200,
+      "source_sha256": "73e7b630d8380a93318b5f8d66d9bda61c5b0cd152e67bb363c8bf00389e2d10",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 5,
+        "decoded_item_count": 5,
+        "accepted_item_count": 5,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/safco-nitrilex-surpass-trade",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:22:03.172640+00:00",
+      "http_status": 200,
+      "source_sha256": "45e6a09b02aaa04b5ab9f0379b34ef41429ea9427233c5e2f2764fc2a49cdd60",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 5,
+        "decoded_item_count": 5,
+        "accepted_item_count": 5,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/safco-surestitch-trade-sutures",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/sutures-surgical-products"
+      ],
+      "captured_at": "2026-10-20T03:23:52.171982+00:00",
+      "http_status": 200,
+      "source_sha256": "099848e740c3afa19b0856e4580cf452ef993986857817b09e74e227b4cd33e4",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 15,
+        "decoded_item_count": 15,
+        "accepted_item_count": 15,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/safety-scalpels",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/sutures-surgical-products"
+      ],
+      "captured_at": "2026-10-20T03:24:48.203847+00:00",
+      "http_status": 200,
+      "source_sha256": "a0ca247cf74b52b0f33caa5b1f01fca6d2310346e1a9e64eb7a1eb3463408e85",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 2,
+        "decoded_item_count": 2,
+        "accepted_item_count": 2,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/scalpel-handles-hu-friedy",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/sutures-surgical-products"
+      ],
+      "captured_at": "2026-10-20T03:24:40.290908+00:00",
+      "http_status": 200,
+      "source_sha256": "0666cc2417bdab125a32621b9ff90488f218a0a3904e7f5d70f63361578a7c9f",
+      "recorded_outcome": "partial",
+      "recorded_extraction": {
+        "expected_item_count": 5,
+        "decoded_item_count": 5,
+        "accepted_item_count": 5,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": [
+          {
+            "row": 0,
+            "sku": "3920389",
+            "code": "invalid_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 0,
+            "sku": "3920389",
+            "code": "unresolved_tiers",
+            "field": "quantity_tiers"
+          }
+        ]
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/sigma-reg",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:22:21.462183+00:00",
+      "http_status": 200,
+      "source_sha256": "8080d6fdf42ff77e8be06aa0894d81c8dadedfac52438ddd88490cc8d31bf46f",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 5,
+        "decoded_item_count": 5,
+        "accepted_item_count": 5,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/silkcare-reg",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:22:24.585373+00:00",
+      "http_status": 200,
+      "source_sha256": "99cd453058d1092b45c6e9223d98ee8649a97fb0fce8d8ed5e49cde000aab821",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 4,
+        "decoded_item_count": 4,
+        "accepted_item_count": 4,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/sodium-chloride-0-9-for-injection-b-braun",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/sutures-surgical-products"
+      ],
+      "captured_at": "2026-10-20T03:23:58.528390+00:00",
+      "http_status": 200,
+      "source_sha256": "e5afdeb085a389c76cbd40a11277745f8855b2a2234f56b2ecead887cc55c7f3",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 3,
+        "decoded_item_count": 3,
+        "accepted_item_count": 3,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/sodium-chloride-0-9-for-injection-baxter",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/sutures-surgical-products"
+      ],
+      "captured_at": "2026-10-20T03:24:05.738442+00:00",
+      "http_status": 200,
+      "source_sha256": "8190bd82641977ae2b6ffd0ba7ca9314a79833dbf68fff85a20c48bb97a1dd31",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 4,
+        "decoded_item_count": 4,
+        "accepted_item_count": 4,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/soft-tissue-trimmer",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/sutures-surgical-products"
+      ],
+      "captured_at": "2026-10-20T03:23:47.374935+00:00",
+      "http_status": 200,
+      "source_sha256": "56f08add7b100070c5cc36e2f636a53e13c2f6b11c6bf903e21947329e546d26",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 2,
+        "decoded_item_count": 2,
+        "accepted_item_count": 2,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/sterile-water-for-injection-b-braun",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/sutures-surgical-products"
+      ],
+      "captured_at": "2026-10-20T03:24:03.590486+00:00",
+      "http_status": 200,
+      "source_sha256": "18479fe9433951889edd2b8364ba26c839a8c7aee18457da65e2502fcd38ef78",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 4,
+        "decoded_item_count": 4,
+        "accepted_item_count": 4,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/surgical-blade-handles-bard-parker-bd",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/sutures-surgical-products"
+      ],
+      "captured_at": "2026-10-20T03:24:38.763481+00:00",
+      "http_status": 200,
+      "source_sha256": "f4d0f447be73166a38cb06b982fcf20c207e87d1daa52e6bb2d22811c369f98f",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 2,
+        "decoded_item_count": 2,
+        "accepted_item_count": 2,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/surgical-blades",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/sutures-surgical-products"
+      ],
+      "captured_at": "2026-10-20T03:24:16.685237+00:00",
+      "http_status": 200,
+      "source_sha256": "4ae97596d3956dafa65753acef69692e1c15d16c65c43ef2826f966134ee7c7b",
+      "recorded_outcome": "partial",
+      "recorded_extraction": {
+        "expected_item_count": 9,
+        "decoded_item_count": 9,
+        "accepted_item_count": 9,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": [
+          {
+            "row": 0,
+            "sku": "3440209",
+            "code": "invalid_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 0,
+            "sku": "3440209",
+            "code": "unresolved_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 1,
+            "sku": "3440212",
+            "code": "invalid_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 1,
+            "sku": "3440212",
+            "code": "unresolved_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 2,
+            "sku": "3440217",
+            "code": "invalid_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 2,
+            "sku": "3440217",
+            "code": "unresolved_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 3,
+            "sku": "3440231",
+            "code": "invalid_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 3,
+            "sku": "3440231",
+            "code": "unresolved_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 4,
+            "sku": "3440236",
+            "code": "invalid_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 4,
+            "sku": "3440236",
+            "code": "unresolved_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 5,
+            "sku": "3440316",
+            "code": "invalid_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 5,
+            "sku": "3440316",
+            "code": "unresolved_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 6,
+            "sku": "3440319",
+            "code": "invalid_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 6,
+            "sku": "3440319",
+            "code": "unresolved_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 7,
+            "sku": "3440325",
+            "code": "invalid_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 7,
+            "sku": "3440325",
+            "code": "unresolved_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 8,
+            "sku": "3440329",
+            "code": "invalid_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 8,
+            "sku": "3440329",
+            "code": "unresolved_tiers",
+            "field": "quantity_tiers"
+          }
+        ]
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/surgical-blades-bard-parker-bd",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/sutures-surgical-products"
+      ],
+      "captured_at": "2026-10-20T03:24:20.555232+00:00",
+      "http_status": 200,
+      "source_sha256": "8df1d13547b1f6b47386c2362c8aeceb2bb867e887dcef4c2c210f976456fa16",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 6,
+        "decoded_item_count": 6,
+        "accepted_item_count": 6,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/surgical-blades-hu-friedy",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/sutures-surgical-products"
+      ],
+      "captured_at": "2026-10-20T03:24:10.397435+00:00",
+      "http_status": 200,
+      "source_sha256": "825eb67350ad5b035cb08d5a2d78eb392d7e71c3d6e0371a5d0e9ee73038b668",
+      "recorded_outcome": "partial",
+      "recorded_extraction": {
+        "expected_item_count": 7,
+        "decoded_item_count": 7,
+        "accepted_item_count": 7,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": [
+          {
+            "row": 5,
+            "sku": "3930133",
+            "code": "invalid_tiers",
+            "field": "quantity_tiers"
+          },
+          {
+            "row": 5,
+            "sku": "3930133",
+            "code": "unresolved_tiers",
+            "field": "quantity_tiers"
+          }
+        ]
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/surgical-blades-integra-miltex",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/sutures-surgical-products"
+      ],
+      "captured_at": "2026-10-20T03:24:04.276839+00:00",
+      "http_status": 200,
+      "source_sha256": "f0df01969e8fb7368112df447ef5e91a54cb12b31007b04bfed3356a02516d8a",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 17,
+        "decoded_item_count": 17,
+        "accepted_item_count": 17,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/surgicel-reg",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/sutures-surgical-products"
+      ],
+      "captured_at": "2026-10-20T03:23:44.267098+00:00",
+      "http_status": 200,
+      "source_sha256": "87afb142861962a0483c65247b79afc865015b908906f912a3dad95684050fcb",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 1,
+        "decoded_item_count": 1,
+        "accepted_item_count": 1,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/surgifoam-reg",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/sutures-surgical-products"
+      ],
+      "captured_at": "2026-10-20T03:23:33.540589+00:00",
+      "http_status": 200,
+      "source_sha256": "86c7182a7bde8d58b01a6fbe7a43e6d008ff48ee57d6f8d19fe5c90b72a8adb0",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 2,
+        "decoded_item_count": 2,
+        "accepted_item_count": 2,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/suture-needles-integra-miltex",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/sutures-surgical-products"
+      ],
+      "captured_at": "2026-10-20T03:24:52.986686+00:00",
+      "http_status": 200,
+      "source_sha256": "e2192c8f8427fdca8650223d6ccdc437d0009f855f99d36c79e447f5326734f4",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 1,
+        "decoded_item_count": 1,
+        "accepted_item_count": 1,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/transcend-trade",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:22:33.934955+00:00",
+      "http_status": 200,
+      "source_sha256": "54dcadf43382c0ea360fdf4f00b322237932a1c35032c7b2099bb2f319dc05cd",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 4,
+        "decoded_item_count": 4,
+        "accepted_item_count": 4,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/true-comfort-reg-blu",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:21:54.862933+00:00",
+      "http_status": 200,
+      "source_sha256": "e94f3b7f646ddc851f2ec74b50836d9821a0c4b8ebd4103037ec3eda5b336c2a",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 5,
+        "decoded_item_count": 5,
+        "accepted_item_count": 5,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/trueform",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:22:49.648858+00:00",
+      "http_status": 200,
+      "source_sha256": "c858174009a4eefd9833a71a32e35b4c1a449aa43ac9b55842a8397289927a7e",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 2,
+        "decoded_item_count": 2,
+        "accepted_item_count": 2,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/vitalgard-reg",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:23:27.076595+00:00",
+      "http_status": 200,
+      "source_sha256": "9570abedfef38fc7d387dc60eaf2500504d3a40e97db723de65c1ec93a0beb7a",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 1,
+        "decoded_item_count": 1,
+        "accepted_item_count": 1,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/wire-glove-box-holder",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:23:14.091257+00:00",
+      "http_status": 200,
+      "source_sha256": "94b081fa7632c07304f6483973103ef347570f54c59a16587fa469387b3b37ce",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 3,
+        "decoded_item_count": 3,
+        "accepted_item_count": 3,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    },
+    {
+      "product_url": "https://www.safcodental.com/product/xlim-reg",
+      "category_urls": [
+        "https://www.safcodental.com/catalog/gloves"
+      ],
+      "captured_at": "2026-10-20T03:22:32.215277+00:00",
+      "http_status": 200,
+      "source_sha256": "5aecae0d6a43a35eb7cfdba972803e86bcc9b37c5006de9ae9dc1f0bc37338c4",
+      "recorded_outcome": "complete",
+      "recorded_extraction": {
+        "expected_item_count": 5,
+        "decoded_item_count": 5,
+        "accepted_item_count": 5,
+        "identical_duplicates": 0,
+        "rejected_item_count": 0,
+        "issues": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "known_evidence_id": "observation:72a763f2eae2775954065e04f33e3cef90f3b06a1f00f967d6017f309d5a87bd:4",
+  "rejected_evidence_ids": [
+    "observation:72a763f2eae2775954065e04f3c...",
+    "observation:72a763f2eae2775954065e04f3c3cef90f3b06a1f00f967d6017f309d5a87bd:4"
+  ],
+  "locator": "script:0:variantData"
+}
